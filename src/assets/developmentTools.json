@@ -1,0 +1,57 @@
+{
+    "title": "Development Tools",
+    "skills":[
+        {
+        "icon": "img",
+        "name": "Visual Studio (Proficient)"
+    },
+    {
+        "icon": "img",
+        "name": "Visual Studio Code"
+    },
+    {
+        "icon": "img",
+        "name": "Vim"
+    },
+    {
+        "icon": "img",
+        "name": "Cygwin64"
+    },
+    {
+        "icon": "img",
+        "name": "Eclipse"
+    },
+    {
+        "icon": "img",
+        "name": "Git"
+    },
+    {
+        "icon": "img",
+        "name": "Node.js"
+    },
+    {
+        "icon": "img",
+        "name": "Notepad++"
+    },
+    {
+        "icon": "img",
+        "name": "Sublime Text"
+    },
+    {
+        "icon": "img",
+        "name": "phpMyAdmin"
+    },
+    {
+        "icon": "img",
+        "name": "Unity Engine"
+    },
+    {
+        "icon": "img",
+        "name": "Matlab"
+    },
+    {
+        "icon": "img",
+        "name": "Microsoft Office"
+    }        
+    ]
+}

@@ -1,0 +1,33 @@
+:host {
+  padding: 8px 80px;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-wrap:  wrap;
+  text-align: center;
+}
+
+table{
+margin: 8px;
+}
+
+.title{
+  text-align:center;
+  border-bottom: 3px solid black;
+  color: rgb(255, 255, 97);
+}
+.ac-widget{
+  min-width: 400px;
+  background: #34495E;
+  color: white;
+  border-radius: .4em;    
+}
+th,td{
+  text-align: center;
+ display: table-cell;
+ padding: 1em;
+ }
+ img{
+  width: 248px;
+}

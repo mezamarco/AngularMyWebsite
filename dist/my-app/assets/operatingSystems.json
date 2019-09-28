@@ -1,0 +1,13 @@
+{   
+    "title": "Operating Systems",
+    "skills":[
+        {
+            "icon": "img",
+            "name": "Windows"
+        },
+        {
+            "icon": "img",
+            "name": "Ubuntu/Linux"
+        } 
+    ]
+}

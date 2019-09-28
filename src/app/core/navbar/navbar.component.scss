@@ -1,0 +1,42 @@
+:host {
+  border: 0 solid #e1e1e1;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  background-color: #2f4050;
+  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #a7b1c2;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 56px;
+  text-decoration: none;
+  vertical-align:middle;
+  margin-top:32px;
+  padding-left: 24px;
+  text-align: left;
+   &:hover{ 
+    cursor: pointer;
+    background-color: #293846;
+    color: white;
+  }
+}
+  
+//The current active link should be in different color
+a.router-link-active {
+  background: #333333;
+  color: white;
+  font-weight: 550;
+  border-left: solid 12px rgb(0, 0, 0);
+  padding-left: 12px;
+}
+
+.img{
+  
+}
+
+.fill {
+  flex: 1;
+}

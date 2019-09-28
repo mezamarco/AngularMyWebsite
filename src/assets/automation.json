@@ -1,0 +1,13 @@
+{
+    "title": "Automation",
+    "skills":[
+        {
+            "icon": "img",
+            "name": "Selenium"
+        },
+        {
+            "icon": "img",
+            "name": "Puppeteer"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Databases",
+    "skills":[
+        {
+            "icon": "img",
+            "name": "SQL Server (Proficient)"
+        },
+        {
+            "icon": "img",
+            "name": "MySQL (Prior experience)"
+        }  
+    ]
+}

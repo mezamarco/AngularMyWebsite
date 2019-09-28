@@ -1,0 +1,58 @@
+<div class= 'container'>
+    <table class="ac-widget">
+        <tr>
+            <th class="title" colspan="100%" >{{languageTableItems.title}}</th>
+        </tr>
+        <tr *ngFor="let item of languageTableItems.skills">
+            <td>{{ item.name }}</td>
+        </tr>
+    </table>
+    <table class="ac-widget">
+            <tr>
+                <th class="title" colspan="100%" >{{automationTableItems.title}}</th>
+            </tr>
+            <tr *ngFor="let item of automationTableItems.skills">
+                <td>{{ item.name }}</td>
+            </tr>
+        </table>
+        <table class="ac-widget">
+                <tr>
+                    <th class="title" colspan="100%" >{{cicdTableItems.title}}</th>
+                </tr>
+                <tr *ngFor="let item of cicdTableItems.skills">
+                    <td>{{ item.name }}</td>
+                </tr>
+            </table>
+            <table class="ac-widget">
+                    <tr>
+                        <th class="title" colspan="100%" >{{databasesTableItems.title}}</th>
+                    </tr>
+                    <tr *ngFor="let item of databasesTableItems.skills">
+                        <td>{{ item.name }}</td>
+                    </tr>
+                </table>
+                <table class="ac-widget">
+                        <tr>
+                            <th class="title" colspan="100%" >{{developmentToolsTableItems.title}}</th>
+                        </tr>
+                        <tr *ngFor="let item of developmentToolsTableItems.skills">
+                            <td>{{ item.name }}</td>
+                        </tr>
+                    </table>
+</div>
+
+
+<!-- <div *ngFor="let skill of skills;let i = index">
+    <div *ngIf="i < skills.length-1 && i%2==0">
+        <tr>
+            <td>{{skills[i].icon}}{{skills[i].name}} = {{i}}</td>
+            <td>{{skills[i+1].icon}}{{skills[i+1].name}} = {{i+1}}</td>
+        </tr>
+    </div>
+</div>
+<div *ngIf = "skills.length%2 != 0">
+    <tr>
+            <td>{{skills[skills.length-1].icon}}{{skills[skills.length-1].name}} = Last</td>
+    </tr>
+</div> -->
+

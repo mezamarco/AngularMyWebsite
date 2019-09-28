@@ -1,0 +1,33 @@
+{
+    "title": "Programming Languages / Web",
+    "skills":[
+        {
+            "icon": "img",
+            "name": "C# (Proficient)"
+        },
+        {
+            "icon": "img",
+            "name": "C++ (Proficient)"
+        },
+        {
+            "icon": "img",
+            "name": "Java (Proficient)"
+        },
+        {
+            "icon": "img",
+            "name": "Python (Proficient)"
+        },
+        {
+            "icon": "img",
+            "name": "HTML/CSS (Proficient)"
+        },
+        {
+            "icon": "img",
+            "name": "PHP (Proficient)"
+        },
+        {
+            "icon": "img",
+            "name": "Javascript (Proficient)"
+        }    
+    ]
+}
