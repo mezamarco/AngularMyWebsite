@@ -7,6 +7,10 @@
   font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+
+
+
+
 a {
   color: #a7b1c2;
   font-size: 16px;
@@ -17,10 +21,16 @@ a {
   margin-top:32px;
   padding-left: 24px;
   text-align: left;
+  display: flex;
+  align-items: center;
+
    &:hover{ 
     cursor: pointer;
     background-color: #293846;
     color: white;
+  }
+  &img{
+    background-color: red;
   }
 }
   
@@ -33,9 +43,7 @@ a.router-link-active {
   padding-left: 12px;
 }
 
-.img{
-  
-}
+
 
 .fill {
   flex: 1;
