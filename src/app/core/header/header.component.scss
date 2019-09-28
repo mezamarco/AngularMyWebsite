@@ -1,9 +1,8 @@
 :host {
   background: #000000;
   color:white;
-  border: 0 solid #a1a1a1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 0px 206px;;
+  padding: 0px 204px;
 }
 
 .header{
@@ -16,7 +15,14 @@
     display: flex;
     flex-shrink: 0;
     margin: auto 12px;
+    height: 100%;
+    a{
+      &:hover{
+        background-color: black; 
+    }
+  }
 }
+
 
 
 a{
@@ -35,7 +41,7 @@ a{
     align-items: center;
     width: 72px;
     margin: 0 12px;
-    font-size:14px;
+    font-size: 14px;
 }
 
 .divider {

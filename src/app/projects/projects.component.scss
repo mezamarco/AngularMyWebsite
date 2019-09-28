@@ -1,3 +1,38 @@
 :host {
   padding: 8px 80px;
 }
+
+.container {
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+.projectTable{
+  margin: 8px;
+  border: solid 4px black;
+  background-color: rgb(226, 226, 226);
+}
+
+
+.title{
+    text-align:left;
+    border-bottom: solid 2px black;
+    color: rgb(0, 58, 247);
+    font-size: 20px;
+    padding:10px;
+}
+
+.tools{
+  text-align:left;
+  border-bottom: solid 1px black;
+  color: rgb(53, 100, 255);
+  font-size: 16px;
+  padding: 10px;
+
+}
+
+td{
+  text-align:left;
+  font-size: 14px;
+  padding: 10px;
+}

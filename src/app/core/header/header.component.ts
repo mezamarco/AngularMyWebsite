@@ -8,6 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent {
 
   emailAlert() { 
-    alert("Please send me an email and will send with a copy of my resume.\nMy email is: mezamarco@yahoo.com\nThank You.");
+    alert("Please send me an email.\nI will send you a copy of my resume.\nMy email is:   mezamarco@yahoo.com\nThank You.");
   }
 }

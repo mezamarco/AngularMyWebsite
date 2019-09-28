@@ -8,6 +8,14 @@
         </tr>
     </table>
     <table class="ac-widget">
+        <tr>
+            <th class="title" colspan="100%" >{{developmentToolsTableItems.title}}</th>
+        </tr>
+        <tr *ngFor="let item of developmentToolsTableItems.skills">
+            <td>{{ item.name }}</td>
+        </tr>
+    </table>
+    <table class="ac-widget">
             <tr>
                 <th class="title" colspan="100%" >{{automationTableItems.title}}</th>
             </tr>
@@ -31,14 +39,7 @@
                         <td>{{ item.name }}</td>
                     </tr>
                 </table>
-                <table class="ac-widget">
-                        <tr>
-                            <th class="title" colspan="100%" >{{developmentToolsTableItems.title}}</th>
-                        </tr>
-                        <tr *ngFor="let item of developmentToolsTableItems.skills">
-                            <td>{{ item.name }}</td>
-                        </tr>
-                    </table>
+
 </div>
 
 
