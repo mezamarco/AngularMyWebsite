@@ -1,4 +1,8 @@
 :host {
-  padding: 8px 80px;
+  padding: 80px 80px;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */ 
+  width: 410px;
+  height: 410px;
 }
 

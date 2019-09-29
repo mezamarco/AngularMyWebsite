@@ -6,8 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-
   emailAlert() { 
-    alert("Please send me an email.\nI will send you a copy of my resume.\nMy email is:   mezamarco@yahoo.com\nThank You.");
+    alert("Contact me at:\nmezamarco@yahoo.com\nI will then send you a copy of my resume.\nThank You,\nMarco Meza");
   }
 }
