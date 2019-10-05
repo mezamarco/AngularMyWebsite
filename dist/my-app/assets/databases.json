@@ -3,11 +3,11 @@
     "skills":[
         {
             "icon": "img",
-            "name": "SQL Server (Proficient)"
+            "name": "SQL Server"
         },
         {
             "icon": "img",
-            "name": "MySQL (Prior experience)"
+            "name": "MySQL"
         }  
     ]
 }

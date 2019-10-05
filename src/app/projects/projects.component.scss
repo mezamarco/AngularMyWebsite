@@ -11,6 +11,7 @@
   margin: 8px;
   border: solid 4px black;
   background-color: rgba(224, 223, 223, 0.678);
+  width: 100%
 }
 
 
@@ -28,11 +29,28 @@
   color: rgb(53, 100, 255);
   font-size: 16px;
   padding: 10px;
+}
+
+.tableBodyContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding:10px;
+  justify-content: center;
+  align-items: center; 
+  height: 100%;
 
 }
 
-td{
-  text-align:left;
-  font-size: 14px;
-  padding: 10px;
+.column:first-child  {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
+.column:last-child  {
+  display: flex;
+  flex-direction: column;
+  flex:.7;
+}
+

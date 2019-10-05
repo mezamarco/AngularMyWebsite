@@ -3,31 +3,31 @@
     "skills":[
         {
             "icon": "img",
-            "name": "C# (Proficient)"
+            "name": "C#"
         },
         {
             "icon": "img",
-            "name": "C++ (Proficient)"
+            "name": "C++"
         },
         {
             "icon": "img",
-            "name": "Java (Proficient)"
+            "name": "Java"  
         },
         {
             "icon": "img",
-            "name": "Python (Proficient)"
+            "name": "Python" 
         },
         {
             "icon": "img",
-            "name": "HTML/CSS (Proficient)"
+            "name": "HTML/CSS"
         },
         {
             "icon": "img",
-            "name": "PHP (Proficient)"
+            "name": "PHP"
         },
         {
             "icon": "img",
-            "name": "Javascript (Proficient)"
+            "name": "Javascript"
         }    
     ]
 }
