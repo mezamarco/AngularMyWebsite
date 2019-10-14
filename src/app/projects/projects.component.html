@@ -1,9 +1,40 @@
 <h2>My Projects</h2>
 
+<div class="buttonSection">
+
+  <section class="buttonContainer">
+    <button class="btn btn-secondary" (click) = "toggleAboutMe()">About Me Website
+                  <span class ="checkmarkImg" [hidden]="aboutMeIsCollapsed" ><img src = "assets/images/checkmarkIcon.png"></span>
+    </button>
+    <button class="btn btn-secondary" (click) = "toggleZigZag()">Zig Zag Game App<span class ="checkmarkImg" [hidden]="zigZagIsCollapsed" ><img src = "assets/images/checkmarkIcon.png"></span>
+    </button>
+    <button class="btn btn-secondary" (click) = "toggleBinary()">Binary Search Tree<span class ="checkmarkImg" [hidden]="binaryTreeIsCollapsed" ><img src = "assets/images/checkmarkIcon.png"></span>
+    </button>
+    <button class="btn btn-secondary" (click) = "toggleMultiWay()">Multi-way Trie<span class ="checkmarkImg" [hidden]="multiWayTrieIsCollapsed" ><img src = "assets/images/checkmarkIcon.png"></span>
+    </button>
+    <button class="btn btn-secondary" >Button</button>
+
+    <button class="btn btn-secondary" (click) = "toggleHuffman()">File Compression and Decompression using a Huffman Tree <span class ="checkmarkImg" [hidden]="huffmanIsCollapsed" ><img src = "assets/images/checkmarkIcon.png"></span>
+    </button>
+    <button class="btn btn-secondary" (click) = "toggleSixDegrees()">Six Degrees of Kevin Bacon<span class ="checkmarkImg" [hidden]="sixDegreesIsCollapsed" ><img src = "assets/images/checkmarkIcon.png"></span>
+    </button>
+    <button class="btn btn-secondary">Button</button>
+    <button class="btn btn-secondary">Button</button>
+</section>
+</div>
 <div class= 'container'>  
 
-  <table class="projectTable">
-    <th class="title">About Me Website (Spring 2018)</th>
+  <table class="projectTable" [hidden] ="aboutMeIsCollapsed">
+    <th>
+        <div class="title">
+          <span class ="left">
+              About Me Website (Spring 2018)
+            </span>
+            <span>
+                  <button (click) = "toggleAboutMe()"><img src="/assets/images/closeIcon.png" /></button>
+            </span> 
+        </div>
+    </th>
     <tr>
         <td class ="tools">TOOLS</td>
     </tr>
@@ -26,8 +57,17 @@
     </tr>
 </table>
 
-  <table class="projectTable">
-    <th class="title">Zig Zag Game App (Summer 2015)</th>
+  <table class="projectTable" [hidden] ="zigZagIsCollapsed">
+      <th>
+          <div class="title">
+            <span class ="left">
+                Zig Zag Game App (Summer 2015)
+              </span>
+              <span>
+                  <button (click) = "toggleZigZag()"><img src="/assets/images/closeIcon.png" /></button>
+              </span> 
+          </div>
+      </th>
     <tr>
         <td class ="tools">TOOLS</td>
     </tr>
@@ -47,8 +87,17 @@
 </tr>
 </table>
 
-  <table class="projectTable">
-    <th class="title">Binary Search Tree (UC San Diego Project Assignment)</th>
+  <table class="projectTable" [hidden] ="binaryTreeIsCollapsed">
+      <th>
+          <div class="title">
+            <span class ="left">
+                Binary Search Tree (UC San Diego Project Assignment)
+                            </span>
+              <span>
+                  <button (click) = "toggleBinary()"><img src="/assets/images/closeIcon.png" /></button>
+              </span> 
+          </div>
+      </th>
     <tr>
         <td class ="tools">TOOLS</td>
     </tr>
@@ -79,8 +128,17 @@
 </tr>
 </table>
 
-  <table class="projectTable">
-    <th class="title">Multi-way Trie (UC San Diego Project Assignment)</th>
+  <table class="projectTable" [hidden] ="multiWayTrieIsCollapsed">
+      <th>
+          <div class="title">
+            <span class ="left">
+                Multi-way Trie (UC San Diego Project Assignment)
+                            </span>
+              <span>
+                  <button (click) = "toggleMultiWay()"><img src="/assets/images/closeIcon.png" /></button>
+              </span> 
+          </div>
+      </th>
     <tr>
         <td class ="tools">TOOLS</td>
     </tr>
@@ -127,8 +185,17 @@
 </table>
 
 
-  <table class="projectTable">
-    <th class="title">File Compression and Decompression using a Huffman Tree (UC San Diego Project Assignment)</th>
+  <table class="projectTable" [hidden] ="huffmanIsCollapsed">
+      <th>
+          <div class="title">
+            <span class ="left">
+                File Compression and Decompression using a Huffman Tree (UC San Diego Project Assignment)
+                            </span>
+              <span>
+                  <button (click) = "toggleHuffman()"><img src="/assets/images/closeIcon.png" /></button>
+              </span> 
+          </div>
+      </th>
     <tr>
         <td class ="tools">TOOLS</td>
     </tr>
@@ -167,8 +234,17 @@
 </tr>
 </table>
 
-  <table class="projectTable">
-    <th class="title">Six Degrees of Kevin Bacon (UC San Diego Project Assignment)</th>
+  <table class="projectTable" [hidden] ="sixDegreesIsCollapsed">
+      <th>
+          <div class="title">
+            <span class ="left">
+                Six Degrees of Kevin Bacon (UC San Diego Project Assignment)
+                            </span>
+              <span>
+                  <button (click) = "toggleSixDegrees()"><img src="/assets/images/closeIcon.png" /></button>
+              </span> 
+          </div>
+      </th>
     <tr>
         <td class ="tools">TOOLS</td>
     </tr>

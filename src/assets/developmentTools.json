@@ -31,27 +31,11 @@
     },
     {
         "icon": "img",
-        "name": "Notepad++"
-    },
-    {
-        "icon": "img",
         "name": "Sublime Text"
     },
     {
         "icon": "img",
-        "name": "phpMyAdmin"
-    },
-    {
-        "icon": "img",
         "name": "Unity Engine"
-    },
-    {
-        "icon": "img",
-        "name": "Matlab"
-    },
-    {
-        "icon": "img",
-        "name": "Microsoft Office"
-    }        
+    }     
     ]
 }

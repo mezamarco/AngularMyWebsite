@@ -9,23 +9,33 @@
 
 .projectTable{
   margin: 8px;
-  border: solid 4px black;
-  background-color: rgba(224, 223, 223, 0.678);
-  width: 100%
+  border: solid 3px black;
+  width: 100%;
 }
 
 
 .title{
-    text-align:left;
-    border-bottom: solid 2px black;
-    color: rgb(0, 58, 247);
-    font-size: 20px;
-    padding:10px;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  border-bottom: solid 2px rgb(0, 0, 0,.3);
+  color: rgb(0, 58, 247);
+  font-size: 20px;
+  padding:10px;
+  width: 100%;
+  align-items: center; 
+  height: 100%;
+  vertical-align: center;
+}
+
+.left {
+  margin-right:auto;
+  vertical-align: center;
 }
 
 .tools{
   text-align:left;
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px rgb(0, 0, 0,.3);
   color: rgb(53, 100, 255);
   font-size: 16px;
   padding: 10px;
@@ -40,7 +50,6 @@
   justify-content: center;
   align-items: center; 
   height: 100%;
-
 }
 
 .column:first-child  {
@@ -52,5 +61,63 @@
   display: flex;
   flex-direction: column;
   flex:.7;
+}
+
+.buttonSection{
+  margin: 50px 0;
+  padding:0 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.buttonContainer .btn {
+  margin: 10px;
+  font-size: inherit;
+  line-height: 1.70;
+  padding: 0.5em 1.8em;
+  font-weight: normal;
+  border-width: 1px;
+  border-style: solid;
+  background: transparent;
+  border-radius: 1.21em;
+  cursor: pointer;
+  font-family: "Booster Next FY", "Avenir Next", Avenir, sans-serif;
+  user-select: none;
+  vertical-align: bottom;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1px 4px -1px rgba(255, 255, 255, 0.4) inset, 0 6px 12px 1px rgba(0, 0, 0, 0.15), 0 6px 2px 1px rgba(0, 0, 0, 0.1), 6px 6px 12px 1px rgba(0, 0, 0, 0.05), -6px 6px 12px 1px rgba(0, 0, 0, 0.05), 4px 4px 2px 1px rgba(0, 0, 0, 0.07), -4px 4px 2px 1px rgba(0, 0, 0, 0.07), 6px 0 2px 1px rgba(255, 255, 255, 0.4), -6px 0 2px 1px rgba(255, 255, 255, 0.4), 6px 0 2px 1px rgba(0, 0, 0, 0.1), -6px 0 2px 1px rgba(0, 0, 0, 0.1), 4px -4px 2px 1px rgba(255, 255, 255, 0.8), -4px -4px 2px 1px rgba(255, 255, 255, 0.8), 0 -6px 12px 1px rgba(255, 255, 255, 0.9), 0 -6px 2px 1px rgba(255, 255, 255, 0.9), 0 0.6em 1em 0 rgba(0, 0, 0, 0.08) inset, 0 -0.6em 1em rgba(255, 255, 255, 0.08) inset;
+  transition: box-shadow 0.2s cubic-bezier(0.23, 1, 0.32, 1), transform 0.35s cubic-bezier(0.23, 1, 0.32, 1);
+}
+button{
+  outline: none !important;
+}
+
+.buttonContainer .btn-secondary {
+  background-color: #0B44EF;
+  color: #E6EAEF;
+  border-color: #0939c8;
+}
+
+span img{
+  width: 40px;
+}
+
+
+.checkmarkImg{
+  img{
+    width: 27px;
+    padding-left: 5px;
+  }
+}
+
+.title{
+  button{
+    background-color: white;
+    border: 0;
+  }
+  button:hover{
+    background-color:rgb(230, 230, 230);
+  }
 }
 

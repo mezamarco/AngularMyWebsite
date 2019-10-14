@@ -30,5 +30,9 @@ export class HomeContainerService {
   getOperatingSystems(){
     return this.httpService.get('../../assets/operatingSystems.json');
   }
+  getAmazingSkills(){
+    return this.httpService.get('../../assets/amazingSkills.json');
+  }
+
 
 }

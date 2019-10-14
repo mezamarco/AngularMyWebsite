@@ -1,0 +1,22 @@
+{
+    "title": "Amazing Skills",
+    "skills":[
+        {
+            "icon": "img",
+            "name": "Notepad"
+        },
+        {
+            "icon": "img",
+            "name": "Matlab"
+        },
+        {
+            "icon": "img",
+            "name": "Notepad++"
+        },
+
+        {
+            "icon": "img",
+            "name": "Microsoft Office"
+        }    
+    ]
+}

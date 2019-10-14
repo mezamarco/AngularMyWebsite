@@ -1,42 +1,51 @@
 <div class= 'container'>
     <table class="ac-widget">
         <tr>
-            <th class="title" colspan="100%" >{{languageTableItems.title}}</th>
+            <th class="title" colspan="100%" >{{languageTableItems?.title}}</th>
         </tr>
-        <tr *ngFor="let item of languageTableItems.skills">
-            <td>{{ item.name }}</td>
+        <tr *ngFor="let item of languageTableItems?.skills">
+            <td>{{ item?.name }}</td>
         </tr>
     </table>
     <table class="ac-widget">
         <tr>
-            <th class="title" colspan="100%" >{{developmentToolsTableItems.title}}</th>
+            <th class="title" colspan="100%" >{{developmentToolsTableItems?.title}}</th>
         </tr>
-        <tr *ngFor="let item of developmentToolsTableItems.skills">
-            <td>{{ item.name }}</td>
+        <tr *ngFor="let item of developmentToolsTableItems?.skills">
+            <td>{{ item?.name }}</td>
         </tr>
     </table>
     <table class="ac-widget">
             <tr>
-                <th class="title" colspan="100%" >{{automationTableItems.title}}</th>
+                <th class="title" colspan="100%" >{{automationTableItems?.title}}</th>
             </tr>
-            <tr *ngFor="let item of automationTableItems.skills">
-                <td>{{ item.name }}</td>
+            <tr *ngFor="let item of automationTableItems?.skills">
+                <td>{{ item?.name }}</td>
             </tr>
         </table>
         <table class="ac-widget">
                 <tr>
-                    <th class="title" colspan="100%" >{{cicdTableItems.title}}</th>
+                    <th class="title" colspan="100%" >{{cicdTableItems?.title}}</th>
                 </tr>
-                <tr *ngFor="let item of cicdTableItems.skills">
-                    <td>{{ item.name }}</td>
+                <tr *ngFor="let item of cicdTableItems?.skills">
+                    <td>{{ item?.name }}</td>
                 </tr>
             </table>
             <table class="ac-widget">
                     <tr>
-                        <th class="title" colspan="100%" >{{databasesTableItems.title}}</th>
+                        <th class="title" colspan="100%" >{{databasesTableItems?.title}}</th>
                     </tr>
-                    <tr *ngFor="let item of databasesTableItems.skills">
-                        <td>{{ item.name }}</td>
+                    <tr *ngFor="let item of databasesTableItems?.skills">
+                        <td>{{ item?.name }}</td>
+                    </tr>
+                </table>
+
+                <table class="ac-widget">
+                    <tr>
+                        <th class="title" colspan="100%" >{{amazingSkillsTableItems?.title}}</th>
+                    </tr>
+                    <tr *ngFor="let item of amazingSkillsTableItems?.skills">
+                        <td>{{ item?.name }}</td>
                     </tr>
                 </table>
 

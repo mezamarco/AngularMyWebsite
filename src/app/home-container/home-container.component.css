@@ -9,19 +9,22 @@ table{
 
 .title{
     text-align:center;
-    border-bottom: 3px solid black;
-    color: rgb(255, 255, 97);
-}
+    color: rgb(0, 58, 247);
+    font-size: 16px;
+    border-bottom: solid 2px rgb(0, 0, 0,.3);
+  }
    
 .ac-widget{
     min-width: 526px;
-    background: #34495E;
-    color: white;
-    border-radius: .4em;    
+    background: white;
+    color: black;
+    margin: 12px;
+    border: solid 3px black; 
 }
   
 th,td{
    text-align: center;
    display: table-cell;
    padding: 1em;
+   border-right: solid 3px black; 
 }

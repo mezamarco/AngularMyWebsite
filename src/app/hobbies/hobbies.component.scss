@@ -14,14 +14,14 @@ margin: 8px;
 
 .title{
   text-align:center;
-  border-bottom: 3px solid black;
-  color: rgb(255, 255, 97);
+  color: rgb(0, 58, 247);
+  font-size: 16px;
+  border-bottom: solid 2px rgb(0, 0, 0,.3);
 }
 .ac-widget{
   min-width: 400px;
-  background: #34495E;
-  color: white;
-  border-radius: .4em;    
+  background: white;
+  border: solid 3px black; 
 }
 th,td{
   text-align: center;
@@ -29,5 +29,9 @@ th,td{
  padding: 1em;
  }
  img{
-  width: 248px;
+  width: 242px;
 }
+.rightImg{
+  border-right: solid 3px black; 
+}
+
