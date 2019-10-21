@@ -2,31 +2,31 @@
     "title": "Programming Languages / Web",
     "skills":[
         {
-            "icon": "img",
+            "icon": "assets/images/csharp.png",
             "name": "C#"
         },
         {
-            "icon": "img",
+            "icon": "assets/images/cpp.png",
             "name": "C++"
         },
         {
-            "icon": "img",
+            "icon": "assets/images/java.png",
             "name": "Java"  
         },
         {
-            "icon": "img",
+            "icon": "assets/images/python.png",
             "name": "Python" 
         },
         {
-            "icon": "img",
+            "icon": "assets/images/htmlcss.png",
             "name": "HTML/CSS"
         },
         {
-            "icon": "img",
+            "icon": "assets/images/php.png",
             "name": "PHP"
         },
         {
-            "icon": "img",
+            "icon": "assets/images/javascript.png",
             "name": "Javascript"
         }    
     ]

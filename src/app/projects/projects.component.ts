@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-   public show:boolean = true;
-
    aboutMeIsCollapsed: boolean = false;
    zigZagIsCollapsed: boolean = false;
    binaryTreeIsCollapsed: boolean = false;
