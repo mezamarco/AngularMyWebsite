@@ -30,7 +30,6 @@ export class HomeContainerComponent implements OnInit {
     this.homeContainerService.getFrameworks().subscribe(res => this.frameworksTableItems = res);
     this.homeContainerService.getFrameworks().subscribe(res => this.operatingSystemsTableItems = res);
     this.homeContainerService.getAmazingSkills().subscribe(res => this.amazingSkillsTableItems = res);
-
   }
 
 }

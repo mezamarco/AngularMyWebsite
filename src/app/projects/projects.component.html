@@ -1,278 +1,50 @@
 <h2>My Projects</h2>
 
 <div class="buttonSection">
-
-  <section class="buttonContainer">
-    <button class="btn btn-secondary" (click) = "toggleAboutMe()">About Me Website
-                  <span class ="checkmarkImg" [hidden]="aboutMeIsCollapsed" ><img src = "assets/images/checkmarkIcon.png"></span>
-    </button>
-    <button class="btn btn-secondary" (click) = "toggleZigZag()">Zig Zag Game App<span class ="checkmarkImg" [hidden]="zigZagIsCollapsed" ><img src = "assets/images/checkmarkIcon.png"></span>
-    </button>
-    <button class="btn btn-secondary" (click) = "toggleBinary()">Binary Search Tree<span class ="checkmarkImg" [hidden]="binaryTreeIsCollapsed" ><img src = "assets/images/checkmarkIcon.png"></span>
-    </button>
-    <button class="btn btn-secondary" (click) = "toggleMultiWay()">Multi-way Trie<span class ="checkmarkImg" [hidden]="multiWayTrieIsCollapsed" ><img src = "assets/images/checkmarkIcon.png"></span>
-    </button>
-    <button class="btn btn-secondary" >Button</button>
-
-    <button class="btn btn-secondary" (click) = "toggleHuffman()">File Compression and Decompression using a Huffman Tree <span class ="checkmarkImg" [hidden]="huffmanIsCollapsed" ><img src = "assets/images/checkmarkIcon.png"></span>
-    </button>
-    <button class="btn btn-secondary" (click) = "toggleSixDegrees()">Six Degrees of Kevin Bacon<span class ="checkmarkImg" [hidden]="sixDegreesIsCollapsed" ><img src = "assets/images/checkmarkIcon.png"></span>
-    </button>
-    <button class="btn btn-secondary">Button</button>
-    <button class="btn btn-secondary">Button</button>
-</section>
+   
+  <div *ngFor="let project of projects; let i = index">  
+    <section class="buttonContainer">
+      <button class="btn btn-secondary" (click)="hideme[i] = !hideme[i]">{{project?.buttonTitle}}
+        <span class ="checkmarkImg" [hidden]="hideme[i]" >
+          <img src = "assets/images/checkmarkIcon.png"/>
+        </span>
+      </button>
+    </section>
+  </div>
 </div>
+
+
 <div class= 'container'>  
 
-  <table class="projectTable" [hidden] ="aboutMeIsCollapsed">
-    <th>
-        <div class="title">
-          <span class ="left">
-              About Me Website (Spring 2018)
-            </span>
-            <span>
-                  <button (click) = "toggleAboutMe()"><img src="/assets/images/closeIcon.png" /></button>
-            </span> 
-        </div>
-    </th>
-    <tr>
-        <td class ="tools">TOOLS</td>
-    </tr>
-    <tr>
-      <td>
-        <div class="tableBodyContainer">
-              <div class="column">
-                  This is the website that you are currently exploring.
-                  (For the best experience use Google Chrome)
-                  Implemented with HTML & CSS, PHP, MySQL, and a little bit of JavaScript.<br/><br/>
-                  Description: My web page has information about me and my projects.<br/><br/>
-                  Description: Don't forget to visit  <a href = "./addstudent.php" target = "_blank" title = "Database Page">MySQL WebPage</a>.
-                  Go and test out the functionality of storing information and displaying the contents of the MySQL database.<br/><br/>
-                </div>
-                <div class="column">
-                  <img src = "assets/images/code2.jpg" alt = "code2">
-                </div>
-        </div>
-      </td>
-    </tr>
-</table>
-
-  <table class="projectTable" [hidden] ="zigZagIsCollapsed">
+   <div *ngFor="let project of projects; let i = index">  
+    <table class="ac-widget" [hidden]="hideme[i]">
       <th>
           <div class="title">
             <span class ="left">
-                Zig Zag Game App (Summer 2015)
+                {{project?.title}}
               </span>
               <span>
-                  <button (click) = "toggleZigZag()"><img src="/assets/images/closeIcon.png" /></button>
+                <button (click)="hideme[i] = !hideme[i]"><img src="/assets/images/closeIcon.png" /></button>
               </span> 
           </div>
       </th>
     <tr>
-        <td class ="tools">TOOLS</td>
+      <td class ="tools">{{project?.tools}}</td>
     </tr>
     <tr>
       <td>
-        <div class="tableBodyContainer">
-              <div class="column">
-        Implemented in Unity and C#. <br/><br/>
-        Compatible with any Android Device.
-        Description: Touch the screen to change direction andavoid falling off the platform
-      </div>
-      <div class="column">
-        <img src = "assets/images/code2.jpg" alt = "code2">
-      </div>
-</div>
-</td>
-</tr>
-</table>
-
-  <table class="projectTable" [hidden] ="binaryTreeIsCollapsed">
-      <th>
-          <div class="title">
-            <span class ="left">
-                Binary Search Tree (UC San Diego Project Assignment)
-                            </span>
-              <span>
-                  <button (click) = "toggleBinary()"><img src="/assets/images/closeIcon.png" /></button>
-              </span> 
+          <div class="tableBodyContainer">
+                <div class="column">
+                  <span class = angular-with-newlines>{{project?.description}}</span>
+                </div>
+                  <div class="column">
+                    <img src="{{project?.images[0]?.path}}" alt="{{project?.images[0]?.alt}}"/>
+                  </div>
           </div>
-      </th>
-    <tr>
-        <td class ="tools">TOOLS</td>
-    </tr>
-    <tr>
-      <td>
-        <div class="tableBodyContainer">
-              <div class="column">
-        Description: Implement a Binary Search Tree that can has an insert function, find function, and a printTree function.
-        <br/><br/>To complete this project I had two classes:(class BST and class Node)<br /><br />		
-        The BST class: This class would have a root pointer that would point to the root node.<br/>
-        Also this class would have a counter for the number of Nodes created.<br /><br />
-  
-        The Node Class: This class would hold the given key and several pointers.
-        Every node would contain an integer variable value.<br/>
-        Every node would have a parent pointer, a leftChild pointer, and a rightChild pointer.<br/><br/>
-  
-         We would receive a vector of integers and then construct the BST using all the elements in the vector.<br/>  
-        <br/> Run time for inserting and finding an element:<br/> 
-        Average case scenario:  O(log n)<br/> 
-        Best case scenario: O(1)<br/> 
-        Worst Case scenario: O(n)<br/> 
-      </div>
-      <div class="column">
-        <img src = "assets/images/code2.jpg" alt = "code2">
-      </div>
-</div>
-</td>
-</tr>
-</table>
+        </td>
+      </tr>
+    </table>
+  </div>
 
-  <table class="projectTable" [hidden] ="multiWayTrieIsCollapsed">
-      <th>
-          <div class="title">
-            <span class ="left">
-                Multi-way Trie (UC San Diego Project Assignment)
-                            </span>
-              <span>
-                  <button (click) = "toggleMultiWay()"><img src="/assets/images/closeIcon.png" /></button>
-              </span> 
-          </div>
-      </th>
-    <tr>
-        <td class ="tools">TOOLS</td>
-    </tr>
-    <tr>
-      <td>
-        <div class="tableBodyContainer">
-              <div class="column">
-        Description: Use a Multi-way Trie to efficiently store a large amount of words.<br/>
-        <br/> Run time for inserting and finding an word:<br/> 
-        Worst Case scenario: O(s), where s is the word with the longest length.<br/> 
-        <br/>This data stucture allows us to not depend on the number of words inserted,
-        which is perfect because if we enter a large amount of words, 
-        then it won't affect the run time for inserting or finding a word.<br/><br/>
-        
-        We also, count the frequency of the words to implement a word autocompletion feature.<br/><br/>
-    
-        To complete this project I had two classes:<br/>(class MultiwayTrie and class Node)<br/><br />
-        
-    
-        The Multiway Trie class:<br/> 
-        This class contained a root node pointer and also a counter for the number of nodes created.<br /> 
-        This class contained the following functions: insert a word function, find a word function, and delete word function.
-        <br/><br/>
-        
-    
-        The Node class:<br/>
-        Every node would hold an array of 27 NULL pointers.<br />
-        If we have an index that point to some other node then that would mean that a character is being used.
-    
-        <br/><br />We read a file with many words, we would read the words character by character,
-        <br />we would simulate the entire word using the array and the index pointers inside the node.
-    
-        <br /><br/>To finish the project and implement the autocomplete feature, <br/>
-        we would go to the given prefix and then use the Depth-First Search algorithm,
-        <br/>to find all the words after the given prefix.<br/><br/>We will then print all the words found after the prefix 
-        and that is how I completed the autocompletion feature.<br/> 
-      </div>
-      <div class="column">
-        <img src = "assets/images/code2.jpg" alt = "code2">
-      </div>
-</div>
-</td>
-</tr>
-</table>
-
-
-  <table class="projectTable" [hidden] ="huffmanIsCollapsed">
-      <th>
-          <div class="title">
-            <span class ="left">
-                File Compression and Decompression using a Huffman Tree (UC San Diego Project Assignment)
-                            </span>
-              <span>
-                  <button (click) = "toggleHuffman()"><img src="/assets/images/closeIcon.png" /></button>
-              </span> 
-          </div>
-      </th>
-    <tr>
-        <td class ="tools">TOOLS</td>
-    </tr>
-    <tr>
-      <td>
-        <div class="tableBodyContainer">
-              <div class="column">
-        Description: Use a Huffman tree to compress data efficiently into a file and then decompress the file without any data loss.<br/><br/>
-
-        To complete this project I would need two classes: <br/>(class HuffmanTree and class Node) <br/><br />
-        The HuffmanTree class:<br />
-        This class will had a vector of 256 pointers(One pointer for each character that can be found in the ASCII table): 
-        We would have a pointer point to a node, if we see the given character in the given file.
-        <br/>This class would also hold a counter for the number of nodes created.<br/><br/>
-        For functions: buildTree function, the parameter of this function would be a vector with the frequency count of every character. 
-        This build function would build our huffmanTree.<br/><br/>
-        
-        The Node class:<br />Every node would contain the character symbol and also the count frequency.
-        Also it would have three pointers, one for the parent, one for the left child , and one for the right child.
-   
-        <br/><br/>To compress a file: We would read a file character by character, and then count the frequency for each character. 
-        According to the frequencies, we would then build our Huffman Tree.
-        <br/><br />The Huffman tree would allow us to encode the most frequent character with the least amount of data encoding, while the less frequent character would have larger encoding.
-        We would encode the entire file and in the end we would have a compressed file that has a
-        smaller data size than our original file.
-        <br/><br/>
-        The decompress file: 
-        Rebuild the same Huffman tree by using the frequency data from the compressed file.<br/>
-        Take the encoded message and decode it using the Huffman tree. The end result would be the original file.
-      </div>
-      <div class="column">
-        <img src = "assets/images/code2.jpg" alt = "code2">
-      </div>
-</div>
-</td>
-</tr>
-</table>
-
-  <table class="projectTable" [hidden] ="sixDegreesIsCollapsed">
-      <th>
-          <div class="title">
-            <span class ="left">
-                Six Degrees of Kevin Bacon (UC San Diego Project Assignment)
-                            </span>
-              <span>
-                  <button (click) = "toggleSixDegrees()"><img src="/assets/images/closeIcon.png" /></button>
-              </span> 
-          </div>
-      </th>
-    <tr>
-        <td class ="tools">TOOLS</td>
-    </tr>
-    <tr>
-      <td>
-        <div class="tableBodyContainer">
-              <div class="column">
-        Description: Six Degrees of Kevin Bacon is a parlor game based on the "six degrees of separation" concept,<br/>which posits that any two people on Earth are six or fewer acquaintance links apart.<br/><br/> 
-        The goal is to find the Bacon Number, which is the separation number between Kevin Bacon and another hollywood star.<br/><br/> 
-        To complete this project I had two classes: (class Graph and class Node)<br/><br/>
-        The Node class: Every Node would have the name of the actor and a set of pairs: pair(year,movie)
-        <br />Also every node would have have an adjacency vector, it would create imaginary edges to the other nodes if there exists a relationship.
-        <br/><br/>The Graph class: The graph would contain a node counter.
-        <br />I implemeted a makeEdges function, this function would take in the entire graph and create the imaginary edges. 
-        <br />To find the bacon number, I would run the Breadth First Search algorithm, to find the shortest paths between Kevin Bacon and the other hollywood actor.
-        <br />The number of traversed nodes using this shortest path would be the Keving Bacon number for given hollywood actor. 
-      </div>
-      <div class="column">
-        <img src = "assets/images/code2.jpg" alt = "code2">
-      </div>
-</div>
-</td>
-</tr>
-</table>
-  
-</div>
-    
-
-
-
+</div> 
 

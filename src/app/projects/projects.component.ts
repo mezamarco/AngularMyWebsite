@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { ProjectService } from './projects.service'
+
+
 
 @Component({
   selector: 'app-projects',
@@ -6,38 +10,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-   aboutMeIsCollapsed: boolean = false;
-   zigZagIsCollapsed: boolean = false;
-   binaryTreeIsCollapsed: boolean = false;
-   multiWayTrieIsCollapsed: boolean = false;
-   huffmanIsCollapsed: boolean = false;
-   sixDegreesIsCollapsed: boolean = false;
+   hideme = [];
+   projects;
 
-
-  constructor() { }
+  constructor(private httpService: HttpClient, private projectService: ProjectService) { }
 
   ngOnInit() {
+    this.projectService.getProjects().subscribe(res => this.projects = res);
   }
-
-  toggleAboutMe(){
-    this.aboutMeIsCollapsed = !this.aboutMeIsCollapsed;
-    console.log(this.aboutMeIsCollapsed);
-  }
-  toggleZigZag(){
-    this.zigZagIsCollapsed = !this.zigZagIsCollapsed;
-  } 
-  toggleBinary(){
-    this.binaryTreeIsCollapsed = !this.binaryTreeIsCollapsed;
-  } 
-  toggleMultiWay(){
-    this.multiWayTrieIsCollapsed = !this.multiWayTrieIsCollapsed;
-  } 
-  toggleHuffman(){
-    this.huffmanIsCollapsed = !this.huffmanIsCollapsed;
-  }
-  toggleSixDegrees(){
-    this.sixDegreesIsCollapsed = !this.sixDegreesIsCollapsed;
-  }
-
-
 }

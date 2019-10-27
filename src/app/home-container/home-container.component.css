@@ -5,16 +5,17 @@
 
   table.ac-widget{
     margin: 12px;
+    min-width: 526px;
     background: white;
     border: solid 3px black; 
-    min-width: 526px;
+    box-shadow: 0 0 10px;
   }
   
   th.title{
     text-align:center;
-    color: rgb(0, 58, 247);
     font-size: 18px;
     border-bottom: solid 2px rgb(0, 0, 0,.3);
+    color: rgb(0, 58, 247);
     padding: 1em;
   }
 

@@ -13,8 +13,6 @@ import { ProjectsModule } from './projects/projects.module';
 
 
 import { CoreModule } from './core/core.module';
-import { HobbiesComponent } from './hobbies/hobbies.component';
-import { ProjectsComponent } from './projects/projects.component';
 import { ContainerComponent } from './container/container.component';
 @NgModule({
   imports:      [
