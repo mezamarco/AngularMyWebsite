@@ -3,20 +3,24 @@
     "skills":[
         {
             "icon": "img",
-            "name": "Notepad"
+            "name": "Notepad",
+            "description":"😁"
         },
         {
             "icon": "img",
-            "name": "Matlab"
+            "name": "Matlab",
+            "description":"😁"
         },
         {
             "icon": "img",
-            "name": "Notepad++"
+            "name": "Notepad++",
+            "description":"😁"
         },
 
         {
             "icon": "img",
-            "name": "Microsoft Office"
+            "name": "Microsoft Office",
+            "description":"😁"
         }    
     ]
 }

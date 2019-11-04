@@ -1,13 +1,15 @@
 {
-    "title": "Automation",
+    "title": "Automation Frameworks",
     "skills":[
         {
-            "icon": "img",
-            "name": "Selenium"
+            "icon": "assets/images/selenium.png",
+            "name": "Selenium",
+            "description": "A test framework where I write many test scenarios for testing web applications."
         },
         {
-            "icon": "img",
-            "name": "Puppeteer"
+            "icon": "assets/images/puppeteer.png",
+            "name": "Puppeteer",
+            "description": "A Google Chrome framework where I write many test scenarios for testing web applications."
         }
     ]
 }

@@ -9,6 +9,8 @@
     background: white;
     border: solid 3px black; 
     box-shadow: 0 0 10px;
+    max-width: 526px;
+
   }
   
   th.title{
@@ -58,7 +60,14 @@
   flex:1;
   font-size: 14px;
 }
+
+.addSpace{
+  background-color: green;
+}
+
+
 img{
   width:32px;
 }
+
 

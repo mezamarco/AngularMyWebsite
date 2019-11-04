@@ -2,12 +2,14 @@
     "title": "Databases",
     "skills":[
         {
-            "icon": "img",
-            "name": "SQL Server"
+            "icon": "assets/images/sqlServer.png",
+            "name": "SQL Server",
+            "description":"A relational database management system developed by Microsoft."
         },
         {
-            "icon": "img",
-            "name": "MySQL"
+            "icon": "assets/images/mysql.png",
+            "name": "MySQL",
+            "description":"An open-source relational database management system"
         }  
     ]
 }

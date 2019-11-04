@@ -22,7 +22,6 @@ app-header {
   position:fixed; top:0px; left:0px; right:0px;
   z-index: 1;
   width: 100%;
-  
 }
 
 app-navbar {
@@ -62,7 +61,6 @@ app-about {
 
 app-footer {
   grid-area: footer;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -76,6 +74,7 @@ app-footer {
   display: flex;
   width: 100%;
   height: 100%;
+  min-height: 1000px;
 }
 .leftColumn  {
   width: 216px;

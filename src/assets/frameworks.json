@@ -1,9 +1,10 @@
 {
-    "title": "Frameworks",
+    "title": "Front End Frameworks",
     "skills":[
         {
-            "icon": "img",
-            "name": "Angular"
+            "icon": "assets/images/angular.png",
+            "name": "Angular",
+            "description":"This web application that you are exploring was built using the Angular 8 framework."
         }
     ]
 }

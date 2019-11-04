@@ -2,13 +2,18 @@
   padding: 8px 80px;
 }
 
+h2{
+  margin: 32px 0;
+  text-align: center;
+}
+
 .container {
   display: flex; 
   flex-wrap: wrap;
 }
 
 table.ac-widget{
-  margin: 8px;
+  margin: 18px;
   border: solid 3px black;
   width: 100%;
   box-shadow: 0 0 10px;

@@ -6,10 +6,7 @@
         "images":[
             {
                 "path": "assets/images/code1.jpg",
-                "alt": "altTest"
-            },
-            {
-                "path": "img"
+                "alt": "laptop1"
             }
         ],
         "description":"This is the website that you are currently exploring.(For the best experience use Google Chrome)Implemented with HTML & CSS, PHP, MySQL, and a little bit of JavaScript.\n\nDescription: My web page has information about me and my projects.\n\nDescription: Don't forget to visit  MySQL WebPage.Go and test out the functionality of storing information and displaying the contents of the MySQL database."
@@ -21,10 +18,7 @@
         "images":[
             {
                 "path": "assets/images/code2.jpg",
-                "alt": "code2"
-            },
-            {
-                "path": "img"
+                "alt": "laptop2"
             }
         ],
         "description": "Implemented in Unity and C#. \n\nCompatible with any Android Device.Description: Touch the screen to change direction andavoid falling off the platform"
@@ -36,10 +30,7 @@
         "images":[
             {
                 "path": "assets/images/bst.png",
-                "alt": "code2"
-            },
-            {
-                "path": "img"
+                "alt": "bst"
             }
         ],
         "description":"Implement a Binary Search Tree that can has an insert function, find function, and a printTree function. \n\nTo complete this project I had two classes:(class BST and class Node)\n\n The BST class: This class would have a root pointer that would point to the root node.\n Also this class would have a counter for the number of Nodes created.\n\n The Node Class: This class would hold the given key and several pointers. Every node would contain an integer variable value.\n Every node would have a parent pointer, a leftChild pointer, and a rightChild pointer.\n\n We would receive a vector of integers and then construct the BST using all the elements in the vector.\n \n Run time for inserting and finding an element:\n Average case scenario:  O(log n)\n Best case scenario: O(1)\n Worst Case scenario: O(n)\n"
@@ -51,10 +42,7 @@
         "images":[
             {
                 "path": "assets/images/dictionary.jpg",
-                "alt": "code2"
-            },
-            {
-                "path": "img"
+                "alt": "MWT"
             }
         ],
         "description": "Description: Use a Huffman tree to compress data efficiently into a file and then decompress the file without any data loss.\n\n To complete this project I would need two classes: \n(class HuffmanTree and class Node) \n\n The HuffmanTree class:\n This class will had a vector of 256 pointers(One pointer for each character that can be found in the ASCII table): We would have a pointer point to a node, if we see the given character in the given file. \nThis class would also hold a counter for the number of nodes created.\n\n For functions: buildTree function, the parameter of this function would be a vector with the frequency count of every character. This build function would build our huffmanTree.\n\n The Node class:\nEvery node would contain the character symbol and also the count frequency. Also it would have three pointers, one for the parent, one for the left child , and one for the right child. \n\nTo compress a file: We would read a file character by character, and then count the frequency for each character. According to the frequencies, we would then build our Huffman Tree. \n\nThe Huffman tree would allow us to encode the most frequent character with the least amount of data encoding, while the less frequent character would have larger encoding. We would encode the entire file and in the end we would have a compressed file that has a smaller data size than our original file. \n\n The decompress file: Rebuild the same Huffman tree by using the frequency data from the compressed file.\n Take the encoded message and decode it using the Huffman tree. The end result would be the original file."
@@ -67,10 +55,7 @@
         "images":[
             {
                 "path": "assets/images/binary.png",
-                "alt": "code2"
-            },
-            {
-                "path": "img"
+                "alt": "binary"
             }
         ],
         "description": "Description: Use a Huffman tree to compress data efficiently into a file and then decompress the file without any data loss.\n\n To complete this project I would need two classes: \n(class HuffmanTree and class Node) \n\n The HuffmanTree class:\n This class will had a vector of 256 pointers(One pointer for each character that can be found in the ASCII table): We would have a pointer point to a node, if we see the given character in the given file. \nThis class would also hold a counter for the number of nodes created.\n\n For functions: buildTree function, the parameter of this function would be a vector with the frequency count of every character. This build function would build our huffmanTree.\n\n The Node class:\nEvery node would contain the character symbol and also the count frequency. Also it would have three pointers, one for the parent, one for the left child , and one for the right child. \n\nTo compress a file: We would read a file character by character, and then count the frequency for each character. According to the frequencies, we would then build our Huffman Tree. \n\nThe Huffman tree would allow us to encode the most frequent character with the least amount of data encoding, while the less frequent character would have larger encoding. We would encode the entire file and in the end we would have a compressed file that has a smaller data size than our original file. \n\n The decompress file: Rebuild the same Huffman tree by using the frequency data from the compressed file.\n Take the encoded message and decode it using the Huffman tree. The end result would be the original file."
@@ -83,10 +68,7 @@
         "images":[
             {
                 "path": "assets/images/network.png",
-                "alt": "code2"
-            },
-            {
-                "path": "img"
+                "alt": "network"
             }
         ],
         "description":"Six Degrees of Kevin Bacon is a parlor game based on the six degrees of separation concept,\nwhich posits that any two people on Earth are six or fewer acquaintance links apart.\n\n The goal is to find the Bacon Number, which is the separation number between Kevin Bacon and another hollywood star.\n\n To complete this project I had two classes: (class Graph and class Node)\n\n The Node class: Every Node would have the name of the actor and a set of pairs: pair(year,movie) \nAlso every node would have have an adjacency vector, it would create imaginary edges to the other nodes if there exists a relationship. \n\nThe Graph class: The graph would contain a node counter. \nI implemeted a makeEdges function, this function would take in the entire graph and create the imaginary edges. \nTo find the bacon number, I would run the Breadth First Search algorithm, to find the shortest paths between Kevin Bacon and the other hollywood actor. \nThe number of traversed nodes using this shortest path would be the Keving Bacon number for given hollywood actor."
