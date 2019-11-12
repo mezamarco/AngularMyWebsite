@@ -1,8 +1,14 @@
 <h2>My Projects</h2>
 
-<div class="buttonSection">
-   
-  <div *ngFor="let project of projects; let i = index">  
+<div class="buttonSection"> 
+    <div class= "buttonHeader">
+      <section class="buttonContainer">
+        <button  class="btn allBtn" (click)="openAllProjects(projects.length)">Open All Projects</button>
+        <button  class="btn allBtn" (click)="closeAllProjects(projects.length)">Close All Projects</button>
+      </section>
+    </div>
+
+    <div *ngFor="let project of projects; let i = index;">
     <section class="buttonContainer">
       <button class="btn btn-secondary" (click)="hideme[i] = !hideme[i]">{{project?.buttonTitle}}
         <span class ="checkmarkImg" [hidden]="hideme[i]" >
@@ -12,7 +18,6 @@
     </section>
   </div>
 </div>
-
 
 <div class= 'container'>  
 
@@ -29,13 +34,16 @@
           </div>
       </th>
     <tr>
-      <td class ="tools">{{project?.tools}}</td>
+      <td class ="tools angular-with-newlines">{{project?.tools}}</td>
+    </tr>
+    <tr>
+      <td class ="githubLink">Github: <a href="{{project?.githubLink}}">{{project?.githubLink}}</a></td>
     </tr>
     <tr>
       <td>
           <div class="tableBodyContainer">
                 <div class="column">
-                  <span class = angular-with-newlines>{{project?.description}}</span>
+                  <span class = "angular-with-newlines">{{project?.description}}</span>
                 </div>
                   <div class="column">
                     <img src="{{project?.images[0]?.path}}" alt="{{project?.images[0]?.alt}}"/>

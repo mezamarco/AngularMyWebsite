@@ -1,32 +1,140 @@
 [
     {
-        "buttonTitle":"About Me Website",
-        "title": " About Me Website (Spring 2018)",
+        "buttonTitle":"Angular Web Application",
+        "title": "My Portfolio Angular Web Application",
+        "tools": "Front End Framework: Angular\nProgramming Languages: Typescript",
+        "githubLink": "https://github.com/mezamarco/AngularMyWebsite",
+        "images":[
+            {
+                "path": "assets/images/code1.jpg",
+                "alt": "todo"
+            }
+        ],
+        "description":"This is the website that you are currently exploring. This is the first weba pplication that I build using the Angular Framework."
+    },
+    {
+        "buttonTitle":"First website( HTML and CSS)",
+        "title": "First webssite",
+        "tools": "Programming Langauges:HTML/CSS, PHP,JavaScript.\nDdatabases: MySQL",
+        "githubLink": "",
+        "images":[
+            {
+                "path": "assets/images/code1.jpg",
+                "alt": "todo"
+            }
+        ],
+        "description":"This is was my first portfolio attempt. I built this website when I was just starting to learn how to created websites, I've gotten a lot beting since I created this website  is a website that reminds me of how I began. You will notice similarites between this Agularwb app, Iit similar because it;s arecreation of this site , but done in the ANgular Framework\nAlso, go and test out the functionality of storing information and displaying the contents of the MySQL database."
+    },
+    {
+        "buttonTitle":"Solving Interview Coding Problems",
+        "title": "Solving Interview Coding Problems",
+        "tools": "Programming Language: C/C++ and Java\nIDE: Visual Studio and Eclipse\nText Editor: Vim",
+        "githubLink": "https://github.com/mezamarco/Cracking-the-Coding-Interview-Solutions",
+        "images":[
+            {
+                "path": "assets/images/code1.jpg",
+                "alt": "todo"
+            }
+        ],
+        "description":"Description: I am currently trying to solve every problem that is in the Cracking The Coding Interview book. I am also preparing myself by doing the Leetcode programming challenges."
+    },
+    {
+        "buttonTitle":"System, ISP, and Weather Information",
+        "title": "System, ISP, and Weather Information",
+        "tools": "Programming Language: Python\nIDE: PyCharm",
+        "githubLink": "",
+        "images":[
+            {
+                "path": "assets/images/code1.jpg",
+                "alt": "todo"
+            }
+        ],
+        "description":"Description: Utilizing multiple APIs, I request your system information, your service provider information, and your current weather information. Utilizing the ipinfo.io API, we get all your service provider information. Utilizing the OpenWeatherMap API, we get all the weather information of your current location. Utilizing the psutil, platform, and cpuinfo libraries, we get all your system information. "
+    },
+    {
+        "buttonTitle":"Parking Lot",
+        "title": "Parking Lot",
         "tools": "TOOLS",
+        "githubLink": "https://github.com/mezamarco/DesignParkingLot",
+        "images":[
+            {
+                "path": "assets/images/code1.jpg",
+                "alt": "todo"
+            }
+        ],
+        "description":"Description: Implement a Parking Lot that contains the following functions: insertVehicle, removeVehicle, parkingSpotInfo, vehicleCanFit, etc. \n"
+    },
+    {
+        "buttonTitle":"Python Calculator",
+        "title": "Parking Lot",
+        "tools": "Programming Language: Python\nIDE: PyCharm",
+        "githubLink": "https://github.com/mezamarco/CalculatorPython",
+        "images":[
+            {
+                "path": "assets/images/code1.jpg",
+                "alt": "todo"
+            }
+        ],
+        "description":"Description: My unique calculator, I built it using the Python programming language. \nTo display the input, buttons, and output, I am using the Tkinter grid layout. \nMy calculator has the expected functions: \nMultiply \nDivide \nAdd \nSubtract \nAdditionally, I gave it extra special functions: \nIt can give you the Factorial number of any number \nIt can give you the Nth-Fibonacci number of any number."
+    },
+    {
+        "buttonTitle":"Calculator (MVC)",
+        "title": "Calculator using MVC",
+        "tools": "Programming Language: Java\nIDE: Eclipse",
+        "githubLink": "https://github.com/mezamarco/MVC-Calculator",
+        "images":[
+            {
+                "path": "assets/images/code1.jpg",
+                "alt": "todo"
+            }
+        ],
+        "description":"Description: Implement a calculator that has the following functions: add, subtract, multiply, division, mod, factorial, and gets the nth Fibonacci number. \nMy program will display a Graphical User Interface (JPanel), so the user can use the calculator."
+    },
+    {
+        "buttonTitle":"Hangman Game",
+        "title": "Hangman Game",
+        "tools": "Programming Language: C++\nText Editor: Vim",
+        "githubLink": "https://github.com/mezamarco/HangmanGame",
+        "images":[
+            {
+                "path": "assets/images/code1.jpg",
+                "alt": "todo"
+            }
+        ],
+        "description":"Description: Play the classic word game, Hangman."
+    },
+    {
+        "buttonTitle":"Blackjack Game",
+        "title": " Blackjack Game",
+        "tools": "Programming Language: C++\nIDE: Visual Studio",
+        "githubLink": "https://github.com/mezamarco/Blackjack",
         "images":[
             {
                 "path": "assets/images/code1.jpg",
                 "alt": "laptop1"
             }
         ],
-        "description":"This is the website that you are currently exploring.(For the best experience use Google Chrome)Implemented with HTML & CSS, PHP, MySQL, and a little bit of JavaScript.\n\nDescription: My web page has information about me and my projects.\n\nDescription: Don't forget to visit  MySQL WebPage.Go and test out the functionality of storing information and displaying the contents of the MySQL database."
+        "description":"Description: Play Blackjack.\nYou will start with $1000, keep on betting and make more money. If you lose the $1000, its game over."
+
     },
     {       
         "buttonTitle":"Zig Zag Game App",
         "title": " Zig Zag Game App (Summer 2015)",
-        "tools": "TOOLS",
+        "tools": "Programming Language: C#\nEngine: Unity",
+        "githubLink": "https://github.com/mezamarco/zigzagGame",
         "images":[
             {
                 "path": "assets/images/code2.jpg",
                 "alt": "laptop2"
             }
         ],
-        "description": "Implemented in Unity and C#. \n\nCompatible with any Android Device.Description: Touch the screen to change direction andavoid falling off the platform"
+        "description": "Compatible with any Android Device.\nDescription: Touch the screen to change direction andavoid falling off the platform"
     },
     {     
         "buttonTitle":"Binary Search Tree",
         "title": "Binary Search Tree (UC San Diego Project Assignment)",
-        "tools": "TOOLS",
+        "tools": "Programming Language: C++\nText Editor: Vim",
+        "githubLink": "This repo is private.",
         "images":[
             {
                 "path": "assets/images/bst.png",
@@ -38,7 +146,8 @@
     {   
         "buttonTitle":"Multi-way Trie",
         "title": "Multi-way Trie (UC San Diego Project Assignment)",
-        "tools": "TOOLS",
+        "tools": "Programming Language: C++\nText Editor: Vim",
+        "githubLink": "This repo is private.",
         "images":[
             {
                 "path": "assets/images/dictionary.jpg",
@@ -51,7 +160,8 @@
     {        
         "buttonTitle":"File Compression and Decompression using a Huffman Tree",
         "title": "File Compression and Decompression using a Huffman Tree (UC San Diego Project Assignment)",
-        "tools": "TOOLS",
+        "tools": "Programming Language: C++\nText Editor: Vim",
+        "githubLink": "This repo is private.",
         "images":[
             {
                 "path": "assets/images/binary.png",
@@ -64,7 +174,8 @@
         
         "buttonTitle":"Six Degrees of Kevin Bacon",
         "title": "Six Degrees of Kevin Bacon (UC San Diego Project Assignment)",
-        "tools": "TOOLS",
+        "tools": "Programming Language: C++\nText Editor: Vim",
+        "githubLink": "This repo is private.",
         "images":[
             {
                 "path": "assets/images/network.png",

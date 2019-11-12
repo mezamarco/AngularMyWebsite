@@ -18,4 +18,17 @@ export class ProjectsComponent implements OnInit {
   ngOnInit() {
     this.projectService.getProjects().subscribe(res => this.projects = res);
   }
+
+  openAllProjects(lenght){
+    for(var i = 0; i < lenght; i++){
+      this.hideme[i] = 0; 
+    }
+  }
+  
+  closeAllProjects(lenght){
+    for(var i = 0; i < lenght; i++){
+      this.hideme[i] = 1; 
+    }
+  }
+
 }
