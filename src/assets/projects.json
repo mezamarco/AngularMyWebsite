@@ -1,29 +1,33 @@
 [
     {
         "buttonTitle":"Angular Web Application",
-        "title": "My Portfolio Angular Web Application",
+        "title": "Portfolio Angular Web Application",
         "tools": "Front End Framework: Angular\nProgramming Languages: Typescript",
         "githubLink": "https://github.com/mezamarco/AngularMyWebsite",
         "images":[
             {
-                "path": "assets/images/code1.jpg",
-                "alt": "todo"
+                "imageDescription": "My Web App Screenshot",
+                "imgArr": [],
+                "path": "assets/images/myAngularApp.png",
+                "alt": "myWebAppImg"
             }
         ],
-        "description":"This is the website that you are currently exploring. This is the first weba pplication that I build using the Angular Framework."
+        "description":"This is the website that you are currently exploring.\n\nThis is the first web application that I build using the Angular Framework. I intend to keep on learning more about the Angular framework since it allows me to create rich and interactive web applications."
     },
     {
-        "buttonTitle":"First website( HTML and CSS)",
-        "title": "First webssite",
-        "tools": "Programming Langauges:HTML/CSS, PHP,JavaScript.\nDdatabases: MySQL",
-        "githubLink": "",
+        "buttonTitle":"First website (HTML & CSS)",
+        "title": "First website",
+        "tools": "Programming Langauges: HTML/CSS, PHP, JavaScript.\nDatabases: MySQL",
+        "githubLink": "https://github.com/mezamarco/Website-Backup",
         "images":[
             {
-                "path": "assets/images/code1.jpg",
+                "imageDescription": "Website Screenshot",                
+                "imgArr": [],
+                "path": "assets/images/oldWebsite.png",
                 "alt": "todo"
             }
         ],
-        "description":"This is was my first portfolio attempt. I built this website when I was just starting to learn how to created websites, I've gotten a lot beting since I created this website  is a website that reminds me of how I began. You will notice similarites between this Agularwb app, Iit similar because it;s arecreation of this site , but done in the ANgular Framework\nAlso, go and test out the functionality of storing information and displaying the contents of the MySQL database."
+        "description":"This is was my first attempt at creating a portfolio website.\n\nI built this website when I was just first started learning about how to build your own websites, I've gotten a lot beting since then.\n\nYou will notice similarites between this old website this Angular app that oyu are currently exploring because I just recreated this older website with the latest technology available.\n\nAlso, go and test out the functionality of storing information and displaying the contents of the MySQL database."
     },
     {
         "buttonTitle":"Solving Interview Coding Problems",
@@ -32,11 +36,13 @@
         "githubLink": "https://github.com/mezamarco/Cracking-the-Coding-Interview-Solutions",
         "images":[
             {
+                "imageDescription": "Test",
+                "imgArr": [],
                 "path": "assets/images/code1.jpg",
                 "alt": "todo"
             }
         ],
-        "description":"Description: I am currently trying to solve every problem that is in the Cracking The Coding Interview book. I am also preparing myself by doing the Leetcode programming challenges."
+        "description":"I've worked and solved many of the Cracking The Coding Interview problems.\n\nI also like to solve interview problems on the Leetcode site."
     },
     {
         "buttonTitle":"System, ISP, and Weather Information",
@@ -45,6 +51,8 @@
         "githubLink": "",
         "images":[
             {
+                "imageDescription": "Test",
+                "imgArr": [],
                 "path": "assets/images/code1.jpg",
                 "alt": "todo"
             }
@@ -58,6 +66,8 @@
         "githubLink": "https://github.com/mezamarco/DesignParkingLot",
         "images":[
             {
+                "imageDescription": "Test",
+                "imgArr": [],
                 "path": "assets/images/code1.jpg",
                 "alt": "todo"
             }
@@ -71,6 +81,8 @@
         "githubLink": "https://github.com/mezamarco/CalculatorPython",
         "images":[
             {
+                "imageDescription": "Test",
+                "imgArr": [],
                 "path": "assets/images/code1.jpg",
                 "alt": "todo"
             }
@@ -84,6 +96,8 @@
         "githubLink": "https://github.com/mezamarco/MVC-Calculator",
         "images":[
             {
+                "imageDescription": "Test",
+                "imgArr": [],
                 "path": "assets/images/code1.jpg",
                 "alt": "todo"
             }
@@ -97,6 +111,8 @@
         "githubLink": "https://github.com/mezamarco/HangmanGame",
         "images":[
             {
+                "imageDescription": "Test",
+                "imgArr": [],
                 "path": "assets/images/code1.jpg",
                 "alt": "todo"
             }
@@ -110,6 +126,8 @@
         "githubLink": "https://github.com/mezamarco/Blackjack",
         "images":[
             {
+                "imageDescription": "Test",
+                "imgArr": [],
                 "path": "assets/images/code1.jpg",
                 "alt": "laptop1"
             }
@@ -124,7 +142,9 @@
         "githubLink": "https://github.com/mezamarco/zigzagGame",
         "images":[
             {
-                "path": "assets/images/code2.jpg",
+                "imageDescription": "Zig Zag App Game Screenshots",
+                "imgArr": ["assets/images/1.jpg","assets/images/2.jpg","assets/images/3.jpg","assets/images/4.jpg","assets/images/5.jpg","assets/images/6.jpg"],
+                "path": "",
                 "alt": "laptop2"
             }
         ],
@@ -137,6 +157,8 @@
         "githubLink": "This repo is private.",
         "images":[
             {
+                "imageDescription": "Binary Search Tree",
+                "imgArr": [],
                 "path": "assets/images/bst.png",
                 "alt": "bst"
             }
@@ -150,6 +172,8 @@
         "githubLink": "This repo is private.",
         "images":[
             {
+                "imageDescription": "Dictionary",
+                "imgArr": [],
                 "path": "assets/images/dictionary.jpg",
                 "alt": "MWT"
             }
@@ -164,6 +188,8 @@
         "githubLink": "This repo is private.",
         "images":[
             {
+                "imageDescription": "Compression/Decompression",
+                "imgArr": [],
                 "path": "assets/images/binary.png",
                 "alt": "binary"
             }
@@ -178,6 +204,8 @@
         "githubLink": "This repo is private.",
         "images":[
             {
+                "imageDescription": "Network Image",
+                "imgArr": [],
                 "path": "assets/images/network.png",
                 "alt": "network"
             }

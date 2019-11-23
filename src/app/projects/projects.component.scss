@@ -42,15 +42,24 @@ table.ac-widget{
 .tools{
   text-align:left;
   border-bottom: solid 1px rgb(0, 0, 0,.3);
-  color: rgb(53, 100, 255);
   font-size: 16px;
+  font-weight: bold;
   padding: 10px;
 }
 .githubLink{
   font-size: 12px;
   border-bottom: solid 1px rgb(0, 0, 0,.3);
-  color: rgb(53, 100, 255);
+  font-weight: bold;
   padding: 10px;
+  a{
+    color: blue;
+  }
+}
+
+.imageDescription{
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
 }
 
 .tableBodyContainer {
@@ -158,4 +167,3 @@ span img{
     background-color:rgb(230, 230, 230);
   }
 }
-

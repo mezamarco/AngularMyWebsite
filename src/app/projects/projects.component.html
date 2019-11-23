@@ -37,17 +37,19 @@
       <td class ="tools angular-with-newlines">{{project?.tools}}</td>
     </tr>
     <tr>
-      <td class ="githubLink">Github: <a href="{{project?.githubLink}}">{{project?.githubLink}}</a></td>
+      <td class ="githubLink">Github Link: <a href="{{project?.githubLink}}">{{project?.githubLink}}</a></td>
     </tr>
     <tr>
       <td>
           <div class="tableBodyContainer">
-                <div class="column">
-                  <span class = "angular-with-newlines">{{project?.description}}</span>
-                </div>
-                  <div class="column">
-                    <img src="{{project?.images[0]?.path}}" alt="{{project?.images[0]?.alt}}"/>
-                  </div>
+              <div class="column">
+                <span class = "angular-with-newlines">{{project?.description}}</span>
+              </div>
+              <div class="column">
+                <div class = "imageDescription">{{project?.images[0]?.imageDescription}}</div>
+                <img *ngIf= "project?.images[0]?.imgArr?.length == '0' " src="{{project?.images[0]?.path}}" alt="{{project?.images[0]?.alt}}"/>
+                <slideshow *ngIf= "project?.images[0]?.imgArr?.length != '0'" [height]="'480px'" [imageUrls]="project?.images[0]?.imgArr"></slideshow>             
+              </div>
           </div>
         </td>
       </tr>
@@ -56,3 +58,9 @@
 
 </div> 
 
+
+
+
+<!--Need to add the img array, note that every array will be different, Array with oneitem will have to be no slideshow 
+<slideshow [imageUrls]="imageUrls"> </slideshow>
+--->                  

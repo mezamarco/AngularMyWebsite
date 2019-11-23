@@ -1,34 +1,164 @@
 [
     {
-        "buttonTitle":"About Me Website",
-        "title": " About Me Website (Spring 2018)",
-        "tools": "TOOLS",
+        "buttonTitle":"Angular Web Application",
+        "title": "Portfolio Angular Web Application",
+        "tools": "Front End Framework: Angular\nProgramming Languages: Typescript",
+        "githubLink": "https://github.com/mezamarco/AngularMyWebsite",
         "images":[
             {
+                "imageDescription": "My Web App Screenshot",
+                "imgArr": [],
+                "path": "assets/images/myAngularApp.png",
+                "alt": "myWebAppImg"
+            }
+        ],
+        "description":"This is the website that you are currently exploring.\n\nThis is the first web application that I build using the Angular Framework. I intend to keep on learning more about the Angular framework since it allows me to create rich and interactive web applications."
+    },
+    {
+        "buttonTitle":"First website (HTML & CSS)",
+        "title": "First website",
+        "tools": "Programming Langauges: HTML/CSS, PHP, JavaScript.\nDatabases: MySQL",
+        "githubLink": "https://github.com/mezamarco/Website-Backup",
+        "images":[
+            {
+                "imageDescription": "Website Screenshot",                
+                "imgArr": [],
+                "path": "assets/images/oldWebsite.png",
+                "alt": "todo"
+            }
+        ],
+        "description":"This is was my first attempt at creating a portfolio website.\n\nI built this website when I was just first started learning about how to build your own websites, I've gotten a lot beting since then.\n\nYou will notice similarites between this old website this Angular app that oyu are currently exploring because I just recreated this older website with the latest technology available.\n\nAlso, go and test out the functionality of storing information and displaying the contents of the MySQL database."
+    },
+    {
+        "buttonTitle":"Solving Interview Coding Problems",
+        "title": "Solving Interview Coding Problems",
+        "tools": "Programming Language: C/C++ and Java\nIDE: Visual Studio and Eclipse\nText Editor: Vim",
+        "githubLink": "https://github.com/mezamarco/Cracking-the-Coding-Interview-Solutions",
+        "images":[
+            {
+                "imageDescription": "Test",
+                "imgArr": [],
+                "path": "assets/images/code1.jpg",
+                "alt": "todo"
+            }
+        ],
+        "description":"I've worked and solved many of the Cracking The Coding Interview problems.\n\nI also like to solve interview problems on the Leetcode site."
+    },
+    {
+        "buttonTitle":"System, ISP, and Weather Information",
+        "title": "System, ISP, and Weather Information",
+        "tools": "Programming Language: Python\nIDE: PyCharm",
+        "githubLink": "",
+        "images":[
+            {
+                "imageDescription": "Test",
+                "imgArr": [],
+                "path": "assets/images/code1.jpg",
+                "alt": "todo"
+            }
+        ],
+        "description":"Description: Utilizing multiple APIs, I request your system information, your service provider information, and your current weather information. Utilizing the ipinfo.io API, we get all your service provider information. Utilizing the OpenWeatherMap API, we get all the weather information of your current location. Utilizing the psutil, platform, and cpuinfo libraries, we get all your system information. "
+    },
+    {
+        "buttonTitle":"Parking Lot",
+        "title": "Parking Lot",
+        "tools": "TOOLS",
+        "githubLink": "https://github.com/mezamarco/DesignParkingLot",
+        "images":[
+            {
+                "imageDescription": "Test",
+                "imgArr": [],
+                "path": "assets/images/code1.jpg",
+                "alt": "todo"
+            }
+        ],
+        "description":"Description: Implement a Parking Lot that contains the following functions: insertVehicle, removeVehicle, parkingSpotInfo, vehicleCanFit, etc. \n"
+    },
+    {
+        "buttonTitle":"Python Calculator",
+        "title": "Parking Lot",
+        "tools": "Programming Language: Python\nIDE: PyCharm",
+        "githubLink": "https://github.com/mezamarco/CalculatorPython",
+        "images":[
+            {
+                "imageDescription": "Test",
+                "imgArr": [],
+                "path": "assets/images/code1.jpg",
+                "alt": "todo"
+            }
+        ],
+        "description":"Description: My unique calculator, I built it using the Python programming language. \nTo display the input, buttons, and output, I am using the Tkinter grid layout. \nMy calculator has the expected functions: \nMultiply \nDivide \nAdd \nSubtract \nAdditionally, I gave it extra special functions: \nIt can give you the Factorial number of any number \nIt can give you the Nth-Fibonacci number of any number."
+    },
+    {
+        "buttonTitle":"Calculator (MVC)",
+        "title": "Calculator using MVC",
+        "tools": "Programming Language: Java\nIDE: Eclipse",
+        "githubLink": "https://github.com/mezamarco/MVC-Calculator",
+        "images":[
+            {
+                "imageDescription": "Test",
+                "imgArr": [],
+                "path": "assets/images/code1.jpg",
+                "alt": "todo"
+            }
+        ],
+        "description":"Description: Implement a calculator that has the following functions: add, subtract, multiply, division, mod, factorial, and gets the nth Fibonacci number. \nMy program will display a Graphical User Interface (JPanel), so the user can use the calculator."
+    },
+    {
+        "buttonTitle":"Hangman Game",
+        "title": "Hangman Game",
+        "tools": "Programming Language: C++\nText Editor: Vim",
+        "githubLink": "https://github.com/mezamarco/HangmanGame",
+        "images":[
+            {
+                "imageDescription": "Test",
+                "imgArr": [],
+                "path": "assets/images/code1.jpg",
+                "alt": "todo"
+            }
+        ],
+        "description":"Description: Play the classic word game, Hangman."
+    },
+    {
+        "buttonTitle":"Blackjack Game",
+        "title": " Blackjack Game",
+        "tools": "Programming Language: C++\nIDE: Visual Studio",
+        "githubLink": "https://github.com/mezamarco/Blackjack",
+        "images":[
+            {
+                "imageDescription": "Test",
+                "imgArr": [],
                 "path": "assets/images/code1.jpg",
                 "alt": "laptop1"
             }
         ],
-        "description":"This is the website that you are currently exploring.(For the best experience use Google Chrome)Implemented with HTML & CSS, PHP, MySQL, and a little bit of JavaScript.\n\nDescription: My web page has information about me and my projects.\n\nDescription: Don't forget to visit  MySQL WebPage.Go and test out the functionality of storing information and displaying the contents of the MySQL database."
+        "description":"Description: Play Blackjack.\nYou will start with $1000, keep on betting and make more money. If you lose the $1000, its game over."
+
     },
     {       
         "buttonTitle":"Zig Zag Game App",
         "title": " Zig Zag Game App (Summer 2015)",
-        "tools": "TOOLS",
+        "tools": "Programming Language: C#\nEngine: Unity",
+        "githubLink": "https://github.com/mezamarco/zigzagGame",
         "images":[
             {
-                "path": "assets/images/code2.jpg",
+                "imageDescription": "Zig Zag App Game Screenshots",
+                "imgArr": ["assets/images/1.jpg","assets/images/2.jpg","assets/images/3.jpg","assets/images/4.jpg","assets/images/5.jpg","assets/images/6.jpg"],
+                "path": "",
                 "alt": "laptop2"
             }
         ],
-        "description": "Implemented in Unity and C#. \n\nCompatible with any Android Device.Description: Touch the screen to change direction andavoid falling off the platform"
+        "description": "Compatible with any Android Device.\nDescription: Touch the screen to change direction andavoid falling off the platform"
     },
     {     
         "buttonTitle":"Binary Search Tree",
         "title": "Binary Search Tree (UC San Diego Project Assignment)",
-        "tools": "TOOLS",
+        "tools": "Programming Language: C++\nText Editor: Vim",
+        "githubLink": "This repo is private.",
         "images":[
             {
+                "imageDescription": "Binary Search Tree",
+                "imgArr": [],
                 "path": "assets/images/bst.png",
                 "alt": "bst"
             }
@@ -38,9 +168,12 @@
     {   
         "buttonTitle":"Multi-way Trie",
         "title": "Multi-way Trie (UC San Diego Project Assignment)",
-        "tools": "TOOLS",
+        "tools": "Programming Language: C++\nText Editor: Vim",
+        "githubLink": "This repo is private.",
         "images":[
             {
+                "imageDescription": "Dictionary",
+                "imgArr": [],
                 "path": "assets/images/dictionary.jpg",
                 "alt": "MWT"
             }
@@ -51,9 +184,12 @@
     {        
         "buttonTitle":"File Compression and Decompression using a Huffman Tree",
         "title": "File Compression and Decompression using a Huffman Tree (UC San Diego Project Assignment)",
-        "tools": "TOOLS",
+        "tools": "Programming Language: C++\nText Editor: Vim",
+        "githubLink": "This repo is private.",
         "images":[
             {
+                "imageDescription": "Compression/Decompression",
+                "imgArr": [],
                 "path": "assets/images/binary.png",
                 "alt": "binary"
             }
@@ -64,9 +200,12 @@
         
         "buttonTitle":"Six Degrees of Kevin Bacon",
         "title": "Six Degrees of Kevin Bacon (UC San Diego Project Assignment)",
-        "tools": "TOOLS",
+        "tools": "Programming Language: C++\nText Editor: Vim",
+        "githubLink": "This repo is private.",
         "images":[
             {
+                "imageDescription": "Network Image",
+                "imgArr": [],
                 "path": "assets/images/network.png",
                 "alt": "network"
             }

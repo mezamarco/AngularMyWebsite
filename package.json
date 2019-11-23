@@ -16,6 +16,7 @@
     "@angular/router": "8.2.4",
     "ag-grid-angular": "^21.2.1",
     "core-js": "3.2.1",
+    "ng-simple-slideshow": "^1.2.9",
     "reset-css": "^4.0.1",
     "rxjs": "6.5.2",
     "rxjs-compat": "^6.0.0-rc.0",

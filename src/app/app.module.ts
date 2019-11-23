@@ -17,7 +17,7 @@ import { ContainerComponent } from './container/container.component';
 @NgModule({
   imports:      [
     BrowserModule, FormsModule, AppRoutingModule, HttpClientModule,
-    CoreModule, HomeModule, AboutModule, HobbiesModule, ProjectsModule,
+    CoreModule, HomeModule, AboutModule, HobbiesModule, ProjectsModule
   ],
   declarations: [ AppComponent, ContainerComponent ],
   bootstrap:    [ AppComponent ],
