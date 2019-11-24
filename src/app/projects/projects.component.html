@@ -21,7 +21,7 @@
 
 <div class= 'container'>  
 
-   <div *ngFor="let project of projects; let i = index">  
+   <div class = "testing" *ngFor="let project of projects; let i = index">  
     <table class="ac-widget" [hidden]="hideme[i]">
       <th>
           <div class="title">
@@ -49,7 +49,7 @@
                 <div class = "imageDescription">{{project?.images[0]?.imageDescription}}</div>
                 <img *ngIf= "project?.images[0]?.imgArr?.length == '0'; else showSlideShow" src="{{project?.images[0]?.path}}" alt="{{project?.images[0]?.alt}}"/>
                 <ng-template #showSlideShow>
-                  <slideshow [height]="'480px'" [imageUrls]="project?.images[0]?.imgArr"></slideshow>             
+                  <slideshow [height]="'780px'" [imageUrls]="project?.images[0]?.imgArr"></slideshow>             
                 </ng-template>
               </div>
           </div>
