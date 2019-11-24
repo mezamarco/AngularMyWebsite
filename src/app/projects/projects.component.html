@@ -47,8 +47,10 @@
               </div>
               <div class="column">
                 <div class = "imageDescription">{{project?.images[0]?.imageDescription}}</div>
-                <img *ngIf= "project?.images[0]?.imgArr?.length == '0' " src="{{project?.images[0]?.path}}" alt="{{project?.images[0]?.alt}}"/>
-                <slideshow *ngIf= "project?.images[0]?.imgArr?.length != '0'" [height]="'480px'" [imageUrls]="project?.images[0]?.imgArr"></slideshow>             
+                <img *ngIf= "project?.images[0]?.imgArr?.length == '0'; else showSlideShow" src="{{project?.images[0]?.path}}" alt="{{project?.images[0]?.alt}}"/>
+                <ng-template #showSlideShow>
+                  <slideshow [height]="'480px'" [imageUrls]="project?.images[0]?.imgArr"></slideshow>             
+                </ng-template>
               </div>
           </div>
         </td>
