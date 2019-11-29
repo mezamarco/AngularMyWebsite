@@ -7,8 +7,7 @@
         "images":[
             {
                 "imageDescription": "My Web App Screenshot",
-                "imgArr": [],
-                "path": "assets/images/myAngularApp.png",
+                "imgArr": ["assets/images/myAngularApp.png"],
                 "alt": "myWebAppImg"
             }
         ],
@@ -22,8 +21,7 @@
         "images":[
             {
                 "imageDescription": "Website Screenshot",                
-                "imgArr": [],
-                "path": "assets/images/oldWebsite.png",
+                "imgArr": ["assets/images/oldWebsite.png"],
                 "alt": "todo"
             }
         ],
@@ -37,8 +35,7 @@
         "images":[
             {
                 "imageDescription": "Test",
-                "imgArr": [],
-                "path": "assets/images/code1.jpg",
+                "imgArr": ["assets/images/code1.jpg"],
                 "alt": "todo"
             }
         ],
@@ -48,12 +45,11 @@
         "buttonTitle":"System, ISP, and Weather Information",
         "title": "System, ISP, and Weather Information",
         "tools": "Programming Language: Python\nIDE: PyCharm",
-        "githubLink": "",
+        "githubLink": "https://github.com/mezamarco/System-IP-Weather-Information",
         "images":[
             {
                 "imageDescription": "Test",
-                "imgArr": [],
-                "path": "assets/images/code1.jpg",
+                "imgArr": ["assets/images/code1.jpg"],
                 "alt": "todo"
             }
         ],
@@ -67,8 +63,7 @@
         "images":[
             {
                 "imageDescription": "Test",
-                "imgArr": [],
-                "path": "assets/images/code1.jpg",
+                "imgArr": ["assets/images/code1.jpg"],
                 "alt": "todo"
             }
         ],
@@ -82,8 +77,7 @@
         "images":[
             {
                 "imageDescription": "Test",
-                "imgArr": [],
-                "path": "assets/images/code1.jpg",
+                "imgArr": ["assets/images/code1.jpg"],
                 "alt": "todo"
             }
         ],
@@ -97,8 +91,7 @@
         "images":[
             {
                 "imageDescription": "Test",
-                "imgArr": [],
-                "path": "assets/images/code1.jpg",
+                "imgArr": ["assets/images/code1.jpg"],
                 "alt": "todo"
             }
         ],
@@ -112,8 +105,7 @@
         "images":[
             {
                 "imageDescription": "Test",
-                "imgArr": [],
-                "path": "assets/images/code1.jpg",
+                "imgArr": ["assets/images/code1.jpg"],
                 "alt": "todo"
             }
         ],
@@ -127,8 +119,7 @@
         "images":[
             {
                 "imageDescription": "Test",
-                "imgArr": [],
-                "path": "assets/images/code1.jpg",
+                "imgArr": ["assets/images/code1.jpg"],
                 "alt": "laptop1"
             }
         ],
@@ -144,7 +135,6 @@
             {
                 "imageDescription": "Zig Zag App Game Screenshots",
                 "imgArr": ["assets/images/1.jpg","assets/images/2.jpg","assets/images/3.jpg","assets/images/4.jpg","assets/images/5.jpg","assets/images/6.jpg"],
-                "path": "",
                 "alt": "laptop2"
             }
         ],
@@ -154,12 +144,11 @@
         "buttonTitle":"Binary Search Tree",
         "title": "Binary Search Tree (UC San Diego Project Assignment)",
         "tools": "Programming Language: C++\nText Editor: Vim",
-        "githubLink": "This repo is private.",
+        "githubLink": "",
         "images":[
             {
                 "imageDescription": "Binary Search Tree",
-                "imgArr": [],
-                "path": "assets/images/bst.png",
+                "imgArr": ["assets/images/bst.png"],
                 "alt": "bst"
             }
         ],
@@ -169,12 +158,11 @@
         "buttonTitle":"Multi-way Trie",
         "title": "Multi-way Trie (UC San Diego Project Assignment)",
         "tools": "Programming Language: C++\nText Editor: Vim",
-        "githubLink": "This repo is private.",
+        "githubLink": "",
         "images":[
             {
                 "imageDescription": "Dictionary",
-                "imgArr": [],
-                "path": "assets/images/dictionary.jpg",
+                "imgArr": ["assets/images/dictionary.jpg"],
                 "alt": "MWT"
             }
         ],
@@ -185,12 +173,11 @@
         "buttonTitle":"File Compression and Decompression using a Huffman Tree",
         "title": "File Compression and Decompression using a Huffman Tree (UC San Diego Project Assignment)",
         "tools": "Programming Language: C++\nText Editor: Vim",
-        "githubLink": "This repo is private.",
+        "githubLink": "",
         "images":[
             {
                 "imageDescription": "Compression/Decompression",
-                "imgArr": [],
-                "path": "assets/images/binary.png",
+                "imgArr": ["assets/images/binary.png"],
                 "alt": "binary"
             }
         ],
@@ -201,12 +188,11 @@
         "buttonTitle":"Six Degrees of Kevin Bacon",
         "title": "Six Degrees of Kevin Bacon (UC San Diego Project Assignment)",
         "tools": "Programming Language: C++\nText Editor: Vim",
-        "githubLink": "This repo is private.",
+        "githubLink": "",
         "images":[
             {
                 "imageDescription": "Network Image",
-                "imgArr": [],
-                "path": "assets/images/network.png",
+                "imgArr": ["assets/images/network.png"],
                 "alt": "network"
             }
         ],

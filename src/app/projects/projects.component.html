@@ -37,7 +37,12 @@
       <td class ="tools angular-with-newlines">{{project?.tools}}</td>
     </tr>
     <tr>
-      <td class ="githubLink">Github Link: <a href="{{project?.githubLink}}">{{project?.githubLink}}</a></td>
+      <td class ="githubLink">Github Link: 
+        <a *ngIf= "project?.githubLink; else noLink" href="{{project?.githubLink}}">{{project?.githubLink}}</a>
+        <ng-template #noLink>                
+          <span>This repo is private</span>
+        </ng-template>
+      </td>
     </tr>
     <tr>
       <td>
@@ -47,9 +52,9 @@
               </div>
               <div class="column">
                 <div class = "imageDescription">{{project?.images[0]?.imageDescription}}</div>
-                <img *ngIf= "project?.images[0]?.imgArr?.length == '0'; else showSlideShow" src="{{project?.images[0]?.path}}" alt="{{project?.images[0]?.alt}}"/>
-                <ng-template #showSlideShow>
-                  <slideshow [height]="'780px'" [imageUrls]="project?.images[0]?.imgArr"></slideshow>             
+                <slideshow *ngIf= "project?.images[0]?.imgArr?.length > '1'; else showSingleImage" [height]="'780px'" [imageUrls]="project?.images[0]?.imgArr"></slideshow>             
+                <ng-template #showSingleImage>                
+                  <img src="{{ project?.images[0]?.imgArr[0] }}" alt="{{project?.images[0]?.alt}}"/>
                 </ng-template>
               </div>
           </div>
@@ -59,10 +64,3 @@
   </div>
 
 </div> 
-
-
-
-
-<!--Need to add the img array, note that every array will be different, Array with oneitem will have to be no slideshow 
-<slideshow [imageUrls]="imageUrls"> </slideshow>
---->                  
