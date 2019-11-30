@@ -4,13 +4,13 @@
   }
 
   table.ac-widget{
+    text-align: left;
     margin: 12px;
     min-width: 526px;
     background: white;
     border: solid 3px black; 
     box-shadow: 0 0 10px;
     max-width: 526px;
-
   }
   
   th.title{
