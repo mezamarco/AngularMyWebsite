@@ -1,14 +1,13 @@
 :host {
-  border: 0 solid #e1e1e1;
-  height: 100%;
   display: flex;
   flex-flow: column;
+  border: 0 solid #e1e1e1;
+  height: 100%;
   background-color: #2f4050;
   font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-
-.optionContainer{
+.navSelection{
   width: 100%;
   text-decoration: none;
   margin-top:32px;
@@ -25,7 +24,6 @@ a {
   display: flex;
   align-items: center;
    &:hover{ 
-    cursor: pointer;
     background-color: #293846;
   }
   span{
@@ -41,9 +39,6 @@ a.router-link-active {
   border-left: solid 12px rgb(0, 0, 0);
   padding-left: 20px;
 }
-
-
-
 
 .fill {
   flex: 1;

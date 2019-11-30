@@ -1,22 +1,14 @@
 :host {
-  padding: 8px 80px;
 }
-
-h2{
-  margin: 32px 0;
-  text-align: center;
-}
-
 
 .container {
   display: flex; 
   flex-wrap:  wrap;
-  text-align: center;
+  justify-content: center;
 }
 
 table.ac-widget{
   margin: 8px;
-  background: white;
   border: solid 3px black; 
   min-width: 490px;
   box-shadow: 0 0 10px;
@@ -36,10 +28,6 @@ th.title{
 .tableBodyContainer {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  justify-content: center;
-  align-items: center; 
-  height: 100%;
 }
 
 td{

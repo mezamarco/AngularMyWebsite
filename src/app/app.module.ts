@@ -1,4 +1,4 @@
-import { NgModule, ErrorHandler } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -11,15 +11,14 @@ import { AboutModule } from './about/about.module';
 import { HobbiesModule } from './hobbies/hobbies.module';
 import { ProjectsModule } from './projects/projects.module';
 
-
 import { CoreModule } from './core/core.module';
-import { ContainerComponent } from './container/container.component';
+
 @NgModule({
   imports:      [
     BrowserModule, FormsModule, AppRoutingModule, HttpClientModule,
     CoreModule, HomeModule, AboutModule, HobbiesModule, ProjectsModule
   ],
-  declarations: [ AppComponent, ContainerComponent ],
+  declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ],
   providers: []
 })
