@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ProjectService } from './projects.service'
+import { NgxSpinnerService } from "ngx-spinner";
 
 
 
@@ -22,11 +23,20 @@ export class ProjectsComponent implements OnInit {
   
   hideme = [];
   projects;
-
-  constructor(private httpService: HttpClient, private projectService: ProjectService) { }
+  showSpinner: boolean = true;
+    
+  constructor(private httpService: HttpClient, private projectService: ProjectService,private spinner: NgxSpinnerService) { }
 
   ngOnInit() {
     this.projectService.getProjects().subscribe(res => this.projects = res);
+
+      /** spinner starts on init */
+      this.spinner.show();
+ 
+      setTimeout(() => {
+        /** spinner ends after 700 miliseconds */
+        this.showSpinner = false;
+      }, 700);
   }
 
   openAllProjects(lenght){
