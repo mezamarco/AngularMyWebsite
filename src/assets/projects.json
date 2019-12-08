@@ -2,7 +2,16 @@
     {
         "buttonTitle":"Angular Web Application",
         "title": "Portfolio Angular Web Application",
-        "tools": "Front End Framework: Angular\nProgramming Languages: Typescript",
+        "tools": [
+            {
+                "type": "Front End Framework",
+                "tech": "Angular"
+            },
+            {
+                "type": "Programming Languages",
+                "tech": "Typescript"
+            }
+        ],
         "githubLink": "https://github.com/mezamarco/AngularMyWebsite",
         "images":[
             {
@@ -11,12 +20,21 @@
                 "alt": "myWebAppImg"
             }
         ],
-        "description":"This is the website that you are currently exploring.\n\nThis is the first web application that I build using the Angular Framework. I intend to keep on learning more about the Angular framework since it allows me to create rich and interactive web applications."
+        "description":"This is the website that you are currently exploring.\n\nThis is the first web application that I built using the Angular Framework.\n\nI intend to keep on learning more about the Angular framework since it allows me to create rich and interactive web applications."
     },
     {
         "buttonTitle":"First website (HTML & CSS)",
-        "title": "First website",
-        "tools": "Programming Langauges: HTML/CSS, PHP, JavaScript.\nDatabases: MySQL",
+        "title": "My First website",
+        "tools": [
+            {
+                "type": "Programming Languages",
+                "tech": "HTML/CSS, PHP, JavaScript"
+            },
+            {
+                "type": "Databases",
+                "tech": "MySQL"
+            }
+        ],
         "githubLink": "https://github.com/mezamarco/Website-Backup",
         "images":[
             {
@@ -30,7 +48,20 @@
     {
         "buttonTitle":"Solving Interview Coding Problems",
         "title": "Solving Interview Coding Problems",
-        "tools": "Programming Language: C/C++ and Java\nIDE: Visual Studio and Eclipse\nText Editor: Vim",
+        "tools": [
+            {
+                "type": "Programming Language",
+                "tech": "C/C++ and Java"
+            },
+            {
+                "type": "IDE",
+                "tech": "Visual Studio and Eclipse"
+            },
+            {
+                "type": "Text Editor",
+                "tech": "Vim"
+            }
+        ],
         "githubLink": "https://github.com/mezamarco/Cracking-the-Coding-Interview-Solutions",
         "images":[
             {
@@ -44,7 +75,16 @@
     {
         "buttonTitle":"System, ISP, and Weather Information",
         "title": "System, ISP, and Weather Information",
-        "tools": "Programming Language: Python\nIDE: PyCharm",
+        "tools": [
+            {
+                "type": "Programming Language",
+                "tech": "Python"
+            },
+            {
+                "type": "IDE",
+                "tech": "PyCharm"
+            }
+        ],
         "githubLink": "https://github.com/mezamarco/System-IP-Weather-Information",
         "images":[
             {
@@ -58,7 +98,16 @@
     {
         "buttonTitle":"Parking Lot",
         "title": "Parking Lot",
-        "tools": "TOOLS",
+        "tools": [
+            {
+                "type": "Front End Framework",
+                "tech": "test"
+            },
+            {
+                "type": "Programming Languages",
+                "tech": "test"
+            }
+        ],
         "githubLink": "https://github.com/mezamarco/DesignParkingLot",
         "images":[
             {
@@ -71,8 +120,17 @@
     },
     {
         "buttonTitle":"Python Calculator",
-        "title": "Parking Lot",
-        "tools": "Programming Language: Python\nIDE: PyCharm",
+        "title": "Python Calculator",
+        "tools": [
+            {
+                "type": "Programming Language",
+                "tech": "Python"
+            },
+            {
+                "type": "IDE",
+                "tech": "PyCharm"
+            }
+        ],
         "githubLink": "https://github.com/mezamarco/CalculatorPython",
         "images":[
             {
@@ -86,7 +144,16 @@
     {
         "buttonTitle":"Calculator (MVC)",
         "title": "Calculator using MVC",
-        "tools": "Programming Language: Java\nIDE: Eclipse",
+        "tools": [
+            {
+                "type": "Programming Language",
+                "tech": "Java"
+            },
+            {
+                "type": "IDE",
+                "tech": "Eclipse"
+            }
+        ],
         "githubLink": "https://github.com/mezamarco/MVC-Calculator",
         "images":[
             {
@@ -100,7 +167,16 @@
     {
         "buttonTitle":"Hangman Game",
         "title": "Hangman Game",
-        "tools": "Programming Language: C++\nText Editor: Vim",
+        "tools": [
+            {
+                "type": "Programming Language",
+                "tech": "C++"
+            },
+            {
+                "type": "Text Editor",
+                "tech": "Vim"
+            }
+        ],
         "githubLink": "https://github.com/mezamarco/HangmanGame",
         "images":[
             {
@@ -114,7 +190,16 @@
     {
         "buttonTitle":"Blackjack Game",
         "title": " Blackjack Game",
-        "tools": "Programming Language: C++\nIDE: Visual Studio",
+        "tools": [
+            {
+                "type": "Programming Language",
+                "tech": "C++"
+            },
+            {
+                "type": "IDE",
+                "tech": "Visual Studio"
+            }
+        ],
         "githubLink": "https://github.com/mezamarco/Blackjack",
         "images":[
             {
@@ -129,7 +214,16 @@
     {       
         "buttonTitle":"Zig Zag Game App",
         "title": " Zig Zag Game App (Summer 2015)",
-        "tools": "Programming Language: C#\nEngine: Unity",
+        "tools": [
+            {
+                "type": "Programming Language",
+                "tech": "C#"
+            },
+            {
+                "type": "Engine",
+                "tech": "Unity"
+            }
+        ],
         "githubLink": "https://github.com/mezamarco/zigzagGame",
         "images":[
             {
@@ -143,7 +237,16 @@
     {     
         "buttonTitle":"Binary Search Tree",
         "title": "Binary Search Tree (UC San Diego Project Assignment)",
-        "tools": "Programming Language: C++\nText Editor: Vim",
+        "tools": [
+            {
+                "type": "Programming Language",
+                "tech": "C++"
+            },
+            {
+                "type": "Text Editor",
+                "tech": "Vim"
+            }
+        ],
         "githubLink": "",
         "images":[
             {
@@ -157,7 +260,16 @@
     {   
         "buttonTitle":"Multi-way Trie",
         "title": "Multi-way Trie (UC San Diego Project Assignment)",
-        "tools": "Programming Language: C++\nText Editor: Vim",
+        "tools": [
+            {
+                "type": "Programming Language",
+                "tech": "C++"
+            },
+            {
+                "type": "Text Editor",
+                "tech": "Vim"
+            }
+        ],
         "githubLink": "",
         "images":[
             {
@@ -172,7 +284,16 @@
     {        
         "buttonTitle":"File Compression and Decompression using a Huffman Tree",
         "title": "File Compression and Decompression using a Huffman Tree (UC San Diego Project Assignment)",
-        "tools": "Programming Language: C++\nText Editor: Vim",
+        "tools": [
+            {
+                "type": "Programming Language",
+                "tech": "C++"
+            },
+            {
+                "type": "Text Editor",
+                "tech": "Vim"
+            }
+        ],
         "githubLink": "",
         "images":[
             {
@@ -187,7 +308,16 @@
         
         "buttonTitle":"Six Degrees of Kevin Bacon",
         "title": "Six Degrees of Kevin Bacon (UC San Diego Project Assignment)",
-        "tools": "Programming Language: C++\nText Editor: Vim",
+        "tools": [
+            {
+                "type": "Programming Language",
+                "tech": "C++"
+            },
+            {
+                "type": "Text Editor",
+                "tech": "Vim"
+            }
+        ],
         "githubLink": "",
         "images":[
             {

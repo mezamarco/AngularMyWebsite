@@ -23,7 +23,7 @@
 
 <div class= 'container'>  
 
-   <div class = "testing" *ngFor="let project of projects; let i = index">  
+   <div *ngFor="let project of projects; let i = index">  
     <table class="ac-widget" [hidden]="hideme[i]">
       <th>
           <div class="title">
@@ -36,11 +36,20 @@
           </div>
       </th>
     <tr>
-      <td class ="tools angular-with-newlines">{{project?.tools}}</td>
+      <td class = "tools">
+        <div *ngFor = "let tool of projects[i]?.tools;">       
+          <span class="toolType">
+            {{tool?.type}}: 
+          </span> 
+          <span>
+           {{tool?.tech}}
+          </span>
+        </div>
+      </td>
     </tr>
     <tr>
       <td class ="githubLink">Github Link: 
-        <a *ngIf= "project?.githubLink; else noLink" href="{{project?.githubLink}}">{{project?.githubLink}}</a>
+        <a *ngIf= "project?.githubLink; else noLink" href="{{project?.githubLink}}" target=”_blank”>{{project?.githubLink}}</a>
         <ng-template #noLink>                
           <span>This repo is private</span>
         </ng-template>
