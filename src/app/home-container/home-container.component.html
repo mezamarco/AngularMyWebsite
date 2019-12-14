@@ -35,15 +35,11 @@
                 <div class="tableBodyContainer">
                     <div *ngFor="let item of developmentToolsTableItems?.skills">
                         <div class ="rowContainer">
-                            <div class="column">
-                                <img src = "{{item?.icon}}" alt = ""/>
-                            </div>
-                            <div class="column">
+
+                            <div class="oneColumn">
                                 {{ item?.name }}
                             </div>
-                            <div class="column">
-                                                    {{item.description}}
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -133,15 +129,9 @@
                                             <div class="tableBodyContainer">
                                                 <div *ngFor="let item of cicdTableItems?.skills">
                                                     <div class ="rowContainer">
-                                                        <div class="column">
-                                                            <img src = "{{item?.icon}}" alt = ""/>
-                                                        </div>
-                                                        <div class="column">
+                                                        <div class="oneColumn">
                                                             {{ item?.name }}
                                                         </div>
-                                                        <div class="column">
-                                                                {{item.description}}
-                                                            </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -157,14 +147,8 @@
                                     <div class="tableBodyContainer">
                                         <div *ngFor="let item of amazingSkillsTableItems?.skills">
                                             <div class ="rowContainer">
-                                                <div class="column">
-                                                    <img src = "{{item?.icon}}" alt = ""/>
-                                                </div>
-                                                <div class="column">
-                                                    {{ item?.name }}
-                                                </div>
-                                                <div class="column">
-                                                    {{item.description}}
+                                                <div class="oneColumn">
+                                                    {{ item?.name }} 😎
                                                 </div>
                                             </div>
                                         </div>

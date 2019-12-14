@@ -1,6 +1,9 @@
+:host{
+}
 .container {
     display: flex; 
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   table.ac-widget{
@@ -46,6 +49,11 @@
   justify-content: center;
 }
 
+.oneColumn{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
 .column:first-child{  
   text-align: right;
 }

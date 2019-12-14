@@ -20,7 +20,7 @@
                 "alt": "myWebAppImg"
             }
         ],
-        "description":"This is the website that you are currently exploring.\n\nThis is the first web application that I built using the Angular Framework.\n\nI intend to keep on learning more about the Angular framework since it allows me to create rich and interactive web applications."
+        "description":"This is the web application that you are currently exploring through.\n\nThis is the first web application that I built using the Angular Framework.\n\nI intend to keep on learning more about the Angular framework since it will allow me to even more rich and interactive web applications."
     },
     {
         "buttonTitle":"First website (HTML & CSS)",
@@ -43,11 +43,11 @@
                 "alt": "todo"
             }
         ],
-        "description":"This is was my first attempt at creating a portfolio website.\n\nI built this website when I was just first started learning about how to build your own websites, I've gotten a lot beting since then.\n\nYou will notice similarites between this old website this Angular app that oyu are currently exploring because I just recreated this older website with the latest technology available.\n\nAlso, go and test out the functionality of storing information and displaying the contents of the MySQL database."
+        "description":"This is was my first attempt at creating a portfolio website.\n\nI built this website when I first started learning about building websites,\nI've gotten a lot better since then.\n\nYou will notice similarites between this old website and this Angular app.\nBasically, I just recreated this older website using with the latest web technologies (Angular).\n\nAnother feauture that this old website had was that it would connect to a MySQL database, which then allowed me to store user information and then display the users information that they provided."
     },
     {
         "buttonTitle":"Solving Interview Coding Problems",
-        "title": "Solving Interview Coding Problems",
+        "title": "Solving Whitebord Interview Coding Problems",
         "tools": [
             {
                 "type": "Programming Language",
@@ -70,7 +70,7 @@
                 "alt": "todo"
             }
         ],
-        "description":"I've worked and solved many of the Cracking The Coding Interview problems.\n\nI also like to solve interview problems on the Leetcode site."
+        "description":"For job interview preparation I solved many of the Cracking The Coding Interview questions.\n\nI also solved many of Leetcode questions."
     },
     {
         "buttonTitle":"System, ISP, and Weather Information",
@@ -93,7 +93,7 @@
                 "alt": "todo"
             }
         ],
-        "description":"Description: Utilizing multiple APIs, I request your system information, your service provider information, and your current weather information. Utilizing the ipinfo.io API, we get all your service provider information. Utilizing the OpenWeatherMap API, we get all the weather information of your current location. Utilizing the psutil, platform, and cpuinfo libraries, we get all your system information. "
+        "description":"Utilizing several APIs, I request your system information, your service provider information, and your current weather information. Utilizing the ipinfo.io API, we get all your service provider information.\n\nUtilizing the OpenWeatherMap API, we get all the weather information of your current location.\n\nUtilizing the psutil, platform, and cpuinfo libraries, we get all your system information. "
     },
     {
         "buttonTitle":"Parking Lot",
