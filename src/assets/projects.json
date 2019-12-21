@@ -20,7 +20,7 @@
                 "alt": "myWebAppImg"
             }
         ],
-        "description":"This is the web application that you are currently exploring through.\n\nThis is the first web application that I built using the Angular Framework.\n\nI intend to keep on learning more about the Angular framework since it will allow me to even more rich and interactive web applications."
+        "description":"This is the web application that you are currently exploring through.\n\nThis is the first web application that I built using the Angular Framework.\n\nI intend to keep on learning more about the Angular framework since it will allow me to create even more rich and interactive web applications."
     },
     {
         "buttonTitle":"First website (HTML & CSS)",
@@ -43,7 +43,7 @@
                 "alt": "todo"
             }
         ],
-        "description":"This is was my first attempt at creating a portfolio website.\n\nI built this website when I first started learning about building websites,\nI've gotten a lot better since then.\n\nYou will notice similarites between this old website and this Angular app.\nBasically, I just recreated this older website using with the latest web technologies (Angular).\n\nAnother feauture that this old website had was that it would connect to a MySQL database, which then allowed me to store user information and then display the users information that they provided."
+        "description":"This was my first ever attempt at creating a portfolio website back in my early days as a programmer.\n\nI built this website when I first started learning about creating websites,\nI've gotten a lot better since then.\n\nYou will notice similarites between this old website and this Angular app.\nBasically, I just recreated this older website using with the latest web technologies (Angular).\n\nAnother feauture that this old website had was that it would connect to a MySQL database, which then allowed me to store user information and then display the user information that they provided."
     },
     {
         "buttonTitle":"Solving Interview Coding Problems",
@@ -70,7 +70,7 @@
                 "alt": "todo"
             }
         ],
-        "description":"For job interview preparation I solved many of the Cracking The Coding Interview questions.\n\nI also solved many of Leetcode questions."
+        "description":"For job interview preparation, I solved many of the Cracking The Coding Interview questions.\n\nI also solved many Leetcode questions."
     },
     {
         "buttonTitle":"System, ISP, and Weather Information",
@@ -89,11 +89,11 @@
         "images":[
             {
                 "imageDescription": "Test",
-                "imgArr": ["assets/images/code1.jpg"],
+                "imgArr": ["assets/images/pythonExample.png"],
                 "alt": "todo"
             }
         ],
-        "description":"Utilizing several APIs, I request your system information, your service provider information, and your current weather information. Utilizing the ipinfo.io API, we get all your service provider information.\n\nUtilizing the OpenWeatherMap API, we get all the weather information of your current location.\n\nUtilizing the psutil, platform, and cpuinfo libraries, we get all your system information. "
+        "description":"With a click of a button the following would happen:\n 1. Makes an API call that will request your system information, your service provider information, and the service providerrs current weather information. Utilizing the ipinfo.io API, we get all your service provider information.\n\nUtilizing the OpenWeatherMap API, we get all the weather information of your current location.\n\nUtilizing the psutil, platform, and cpuinfo libraries, we get all your system information. "
     },
     {
         "buttonTitle":"Parking Lot",
