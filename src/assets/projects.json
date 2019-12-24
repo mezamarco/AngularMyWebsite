@@ -88,12 +88,12 @@
         "githubLink": "https://github.com/mezamarco/System-IP-Weather-Information",
         "images":[
             {
-                "imageDescription": "Test",
+                "imageDescription": "Example Screenshot",
                 "imgArr": ["assets/images/pythonExample.png"],
                 "alt": "todo"
             }
         ],
-        "description":"With a click of a button the following would happen:\n 1. Makes an API call that will request your system information, your service provider information, and the service providerrs current weather information. Utilizing the ipinfo.io API, we get all your service provider information.\n\nUtilizing the OpenWeatherMap API, we get all the weather information of your current location.\n\nUtilizing the psutil, platform, and cpuinfo libraries, we get all your system information. "
+        "description":"I make three API calls, get response objects, and then display this data to the user.\n\nI'm utilizing the psutil, platform, and cpuinfo libraries.\n\nWith a click of a button the following happens:\n1. Makes an API call that will request your system information\n2. Makes an API call that will request your service provider information\n3. Makes an API call that will request your service providers location current weather information.\n\nOnce I get these three response objects, then we just display the data to the user."
     },
     {
         "buttonTitle":"Parking Lot",
@@ -134,12 +134,12 @@
         "githubLink": "https://github.com/mezamarco/CalculatorPython",
         "images":[
             {
-                "imageDescription": "Test",
+                "imageDescription": "Calculator Screenshots",
                 "imgArr": ["assets/images/code1.jpg"],
                 "alt": "todo"
             }
         ],
-        "description":"Description: My unique calculator, I built it using the Python programming language. \nTo display the input, buttons, and output, I am using the Tkinter grid layout. \nMy calculator has the expected functions: \nMultiply \nDivide \nAdd \nSubtract \nAdditionally, I gave it extra special functions: \nIt can give you the Factorial number of any number \nIt can give you the Nth-Fibonacci number of any number."
+        "description":"I built this calculator using the Python programming language.\n\nTo display the calculator to the user, I am using the Tkinter grid layout.\n\nMy calculator has the following functions:\nAddition, Subtraction, Multiplication, and Division.\n\nAdditionally, I gave it extra functions:\nIt can give you the Factorial number of any number.\nIt can give you the Nth-Fibonacci number of any number."
     },
     {
         "buttonTitle":"Calculator (MVC)",

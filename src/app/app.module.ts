@@ -7,16 +7,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { HomeModule } from './home/home.module';
-import { AboutModule } from './about/about.module';
+import { ContactModule } from './contact/contact.module';
 import { HobbiesModule } from './hobbies/hobbies.module';
 import { ProjectsModule } from './projects/projects.module';
 
 import { CoreModule } from './core/core.module';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   imports:      [
     BrowserModule, FormsModule, AppRoutingModule, HttpClientModule,
-    CoreModule, HomeModule, AboutModule, HobbiesModule, ProjectsModule
+    CoreModule, HomeModule, ContactModule, HobbiesModule, ProjectsModule
   ],
   declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ],

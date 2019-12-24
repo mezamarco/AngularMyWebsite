@@ -11,4 +11,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class ProjectsRoutingModule { }
-//I wonder how caching works, idk
