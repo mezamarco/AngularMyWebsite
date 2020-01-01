@@ -100,23 +100,28 @@
         "title": "Parking Lot",
         "tools": [
             {
-                "type": "Front End Framework",
-                "tech": "test"
+                "type": "Programming Language",
+                "tech": "C++"
             },
             {
-                "type": "Programming Languages",
-                "tech": "test"
+                "type": "IDE",
+                "tech": "Visual Studio"
             }
         ],
         "githubLink": "https://github.com/mezamarco/DesignParkingLot",
         "images":[
             {
-                "imageDescription": "Test",
-                "imgArr": ["assets/images/code1.jpg"],
+                "imageDescription": "Parking Lot Screenshots",
+                "imgArr": [
+                        "assets/images/parkingLot1.png",
+                        "assets/images/parkingLot2.png",
+                        "assets/images/parkingLot3.png",
+                        "assets/images/parkingLot4.png"
+                ],
                 "alt": "todo"
             }
         ],
-        "description":"Description: Implement a Parking Lot that contains the following functions: insertVehicle, removeVehicle, parkingSpotInfo, vehicleCanFit, etc. \n"
+        "description":"I implement a Parking Lot that contains the following functions:\n1.Generate a number of vehicles {Motorcycle,Car,Truck}\n2.Insert the vehicles into the Parking Lot\n3. Remove vehicles from the Parking Lot\n4. View the available parking spaces\n5.Check if a vehicle will fit in any parking spot., \n7... etc. \n\nThe UI for this project is in progress."
     },
     {
         "buttonTitle":"Python Calculator",
@@ -157,9 +162,9 @@
         "githubLink": "https://github.com/mezamarco/MVC-Calculator",
         "images":[
             {
-                "imageDescription": "Test",
-                "imgArr": ["assets/images/code1.jpg"],
-                "alt": "todo"
+                "imageDescription": "Calculator Screenshot",
+                "imgArr": ["assets/images/calculatorMVC.png"],
+                "alt": "Calculator MVC"
             }
         ],
         "description":"Description: Implement a calculator that has the following functions: add, subtract, multiply, division, mod, factorial, and gets the nth Fibonacci number. \nMy program will display a Graphical User Interface (JPanel), so the user can use the calculator."
@@ -180,9 +185,14 @@
         "githubLink": "https://github.com/mezamarco/HangmanGame",
         "images":[
             {
-                "imageDescription": "Test",
-                "imgArr": ["assets/images/code1.jpg"],
-                "alt": "todo"
+                "imageDescription": "Hangman Screenshots",
+                "imgArr": [
+                    "assets/images/hangman1.png",
+                    "assets/images/hangman2.png",
+                    "assets/images/hangman3.png",
+                    "assets/images/hangman4.png"
+                ],
+                "alt": "Hangman"
             }
         ],
         "description":"Description: Play the classic word game, Hangman."
