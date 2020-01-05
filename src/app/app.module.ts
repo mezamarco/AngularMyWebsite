@@ -12,7 +12,6 @@ import { HobbiesModule } from './hobbies/hobbies.module';
 import { ProjectsModule } from './projects/projects.module';
 
 import { CoreModule } from './core/core.module';
-import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   imports:      [

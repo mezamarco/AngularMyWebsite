@@ -62,11 +62,22 @@
                 <span class = "angular-with-newlines">{{project?.description}}</span>
               </div>
               <div class="column">
+
                 <div class = "imageDescription">{{project?.images[0]?.imageDescription}}</div>
-                <slideshow *ngIf= "project?.images[0]?.imgArr?.length > '1'; else showSingleImage" [height]="'780px'" [imageUrls]="project?.images[0]?.imgArr"></slideshow>             
+                <div>
+                  <!--NG statement, else if, we have three widgets with three sliders
+                      I need a switch statement-->
+                  <slideshow *ngIf= "project?.images[0]?.imgArr?.length > '1'; else showSingleImage" 
+                    [minHeight]='project?.images[0]?.minHeight'
+                    [lazyLoad]="project?.images[0]?.imgArr?.length > '1'"
+                    [imageUrls]="project?.images[0]?.imgArr">
+                  </slideshow>   
+                </div>
+                
                 <ng-template #showSingleImage>                
                   <img src="{{ project?.images[0]?.imgArr[0] }}" alt="{{project?.images[0]?.alt}}"/>
                 </ng-template>
+              
               </div>
           </div>
         </td>

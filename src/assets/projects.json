@@ -118,7 +118,8 @@
                         "assets/images/parkingLot3.png",
                         "assets/images/parkingLot4.png"
                 ],
-                "alt": "todo"
+                "alt": "todo",
+                "minHeight": "360px"
             }
         ],
         "description":"I implement a Parking Lot that contains the following functions:\n1.Generate a number of vehicles {Motorcycle,Car,Truck}\n2.Insert the vehicles into the Parking Lot\n3. Remove vehicles from the Parking Lot\n4. View the available parking spaces\n5.Check if a vehicle will fit in any parking spot., \n7... etc. \n\nThe UI for this project is in progress."
@@ -192,7 +193,8 @@
                     "assets/images/hangman3.png",
                     "assets/images/hangman4.png"
                 ],
-                "alt": "Hangman"
+                "alt": "Hangman",
+                "minHeight": "360px"
             }
         ],
         "description":"Description: Play the classic word game, Hangman."
@@ -239,7 +241,8 @@
             {
                 "imageDescription": "Zig Zag App Game Screenshots",
                 "imgArr": ["assets/images/1.jpg","assets/images/2.jpg","assets/images/3.jpg","assets/images/4.jpg","assets/images/5.jpg","assets/images/6.jpg"],
-                "alt": "laptop2"
+                "alt": "laptop2",
+                "minHeight": "700px"
             }
         ],
         "description": "Compatible with any Android Device.\nDescription: Touch the screen to change direction andavoid falling off the platform"
