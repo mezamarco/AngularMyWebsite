@@ -1,5 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { NgxSpinnerService } from "ngx-spinner";
+import { ContactService} from './contact.service';
+
+interface ContactMessage{
+  name:string
+  email:string
+  message:string
+}
+
 
 @Component({
   selector: 'app-contact',
@@ -8,11 +16,12 @@ import { NgxSpinnerService } from "ngx-spinner";
 })
 export class ContactComponent implements OnInit {
 
+  
   showSpinner:boolean = true;
+  contactMessage: ContactMessage;
+  people;
 
-  constructor(private spinner: NgxSpinnerService) { }
-
-
+  constructor(private spinner: NgxSpinnerService, private contactService: ContactService) { }
   ngOnInit() {
     /** spinner starts on init */
     this.spinner.show();
@@ -21,6 +30,14 @@ export class ContactComponent implements OnInit {
       /** spinner ends after 500 miliseconds */
       this.showSpinner = false;
     }, 500)
+
+    //Make API call when the component is being rendered
+    this.contactService.getPeople().subscribe(res => {this.people = res});
+  }
+
+  submitForm(){
+    const newMessage: ContactMessage = Object.assign({},this.contactMessage);
+    this.contactService.saveContactMessage(newMessage);
   }
 
 }

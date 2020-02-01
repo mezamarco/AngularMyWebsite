@@ -2,8 +2,6 @@
 
 
 <h2>Contact</h2>
-<br/>
-<h4>Marco Meza</h4>
 <p>
     Email: <a href = "mailto: mezamarco@yahoo.com">mezamarco@yahoo.com</a>
 </p>
@@ -15,3 +13,39 @@
 <p>
     LinkedIn: <a href = "https://www.linkedin.com/in/mezamarco/" target="_blank">https://www.linkedin.com/in/mezamarco/</a>
 </p>
+
+<hr/>
+
+
+<form class="userForm">
+    <h3>Contact Me</h3>
+
+    <div>
+      <label for="name">
+        Name: 
+      </label>
+      <input id="name" type="text" size="25" formControlName="name">
+    </div>
+
+    <div>
+      <label for="email">
+        Email: 
+      </label>
+      <input id="email" type="text" size="25" formControlName="email">
+    </div>
+
+    <div>
+        <textarea rows="5" cols="50" id="message" type="text" formControlName="message">Enter Message Here...</textarea><br><br>
+    </div>
+
+    <button class="button" type="submit">Submit</button>
+  </form>
+  
+<hr/>
+
+<div class="ApiCallClass">
+    <h3>API Call</h3>
+    <div *ngFor="let person of people">
+        {{person?.firstName}} {{person?.lastName}} {{person?.age}} 
+    </div>
+</div>
