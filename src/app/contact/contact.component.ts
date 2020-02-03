@@ -30,14 +30,14 @@ export class ContactComponent implements OnInit {
       /** spinner ends after 500 miliseconds */
       this.showSpinner = false;
     }, 500)
-
-    //Make API call when the component is being rendered
-    this.contactService.getPeople().subscribe(res => {this.people = res});
   }
+  //   //Make API call when the component is being rendered
+  //   this.contactService.getPeople().subscribe(res => {this.people = res});
+  // }
 
-  submitForm(){
-    const newMessage: ContactMessage = Object.assign({},this.contactMessage);
-    this.contactService.saveContactMessage(newMessage);
-  }
+  // submitForm(){
+  //   const newMessage: ContactMessage = Object.assign({},this.contactMessage);
+  //   this.contactService.saveContactMessage(newMessage);
+  // }
 
 }
