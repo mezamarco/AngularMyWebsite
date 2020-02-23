@@ -17,33 +17,56 @@
 <hr/>
 
 
-<form class="userForm">
+<form class="userForm" [formGroup]="messageForm" (ngSubmit)="onSubmit()" *ngIf = "!newMessageEntered;else thankYouMessage">
     <h3>Contact Me</h3>
 
     <div>
       <label for="name">
-        Name: 
+        <span class="redColor">* </span>Name: 
       </label>
-      <input id="name" type="text" size="25" formControlName="name">
+      <input type="text" size="25" formControlName="name" required>
     </div>
 
     <div>
       <label for="email">
-        Email: 
+        <span class="redColor">* </span>Email: 
       </label>
-      <input id="email" type="text" size="25" formControlName="email">
+      <input type="text" size="25" formControlName="email" required>
     </div>
 
     <div>
-        <textarea rows="5" cols="50" id="message" type="text" formControlName="message">Enter Message Here...</textarea><br><br>
+        <textarea rows="5" cols="50" type="text" formControlName="message" required></textarea><br><br>
     </div>
-    <button class="button" type="submit">Submit</button>
+    <button class="subBtn" type="submit" [disabled]="!messageForm.valid">Submit</button>
   </form>
-  
 
-<!-- <div class="ApiCallClass">
+  <ng-template #thankYouMessage>
+    <h3>
+      Thank you for contacting me.<br>I will get back to you as soon as possible.
+    </h3>
+  </ng-template>
+  
+<hr>
+<p>
+  Form Value: {{ messageForm.value | json }}
+</p>
+
+<p>
+  Form Status: {{ messageForm.status }}
+</p>
+<hr>
+
+<div class="ApiCallClass">
     <h3>API Call</h3>
-    <div *ngFor="let person of people">
+    <div *ngFor="let person of peopleResponse">
         {{person?.firstName}} {{person?.lastName}} {{person?.age}} 
     </div>
-</div> -->
+</div>
+
+
+<div class="ApiCallClass">
+  <h3>Message Endpoint Call</h3>
+  <div *ngFor="let m of messagesResponse">
+      {{m?.name}} {{m?.email}} {{m?.message}} 
+  </div>
+</div>

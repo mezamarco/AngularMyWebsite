@@ -1,9 +1,7 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders,HttpErrorResponse } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
-import { catchError } from 'rxjs/operators';
-import { ErrorObservable } from 'rxjs/observable/ErrorObservable';
-import { Observable, Subscribable } from 'rxjs';
+import { Observable } from 'rxjs';
 
 //We need to declare our interface
 interface Person {
@@ -12,7 +10,6 @@ interface Person {
     age: number;
 }
 
-
 interface ContactMessage{
     name:string
     email:string
@@ -20,38 +17,46 @@ interface ContactMessage{
 }
 
 
+const httpOptions = {
+    headers: new HttpHeaders({
+      'Content-Type':  'application/json',
+    })
+  };
+  
+
+
 @Injectable({
   providedIn: 'root'
 })
+
 export class ContactService {
 
-    // baseUrl = environment.ApiBaseUrl;
-    // constructor(private httpService: HttpClient) { }
+    baseUrl = environment.ApiBaseUrl;
+    newContactMessage: ContactMessage = { name:"testAngularName",email:"testAngularEmail",message:"testAngularMessage" } as ContactMessage;
 
-    // public getPeople(){
-    //   //In the constructor of the component that will make the API call and then display the data
-    //   return this.httpService.get<Person[]>(this.baseUrl + 'api/People');
-    // }
 
-    // public saveContactMessage(message:ContactMessage){
-    //   return this.httpService.post<ContactMessage>(this.baseUrl + 'api/toDo', message,{
-    //     headers: new HttpHeaders({
-    //       'Content-type':'application/json'
-    //     })
-    //   })
-    //   .pipe(catchError(this.handleError));
-    // }
+    constructor(private httpService: HttpClient){}
+    
+    /** GET: get the all the people */
+    public getPeople(){
+      return this.httpService.get<Person[]>(this.baseUrl + 'api/People');
+    }
+    
+    /** GET: get the all the messages */
+    public getMessages(): Observable<ContactMessage[]>{
+        return this.httpService.get<ContactMessage[]>(this.baseUrl + 'api/Message');
+    }
 
-    // private handleError(errorResponse: HttpErrorResponse) {
-    //   if (errorResponse.error instanceof ErrorEvent) {
-    //     console.error('Client Side Error :', errorResponse.error.message);
-    //   } else {
-    //     console.error('Server Side Error :', errorResponse);
-    //   }
-    //   // return an observable with a meaningful error message to the end user
-    //   return new ErrorObservable(subscriber => {'There is a problem with the service. We are notified & working on it. Please try again later.'});
-    // }
+    /** POST: add a new hero to the database */
+    public addContactMessage(m: ContactMessage): Observable<ContactMessage>{
+        console.log('Post Method: ' + 'name:' + m.name + ', email:'+ m.email + ', message:' + m.message);
+        return this.httpService.post<ContactMessage>(this.baseUrl + 'api/Message', m, httpOptions);
+    }
+        
 }
 
 
 
+
+
+  
